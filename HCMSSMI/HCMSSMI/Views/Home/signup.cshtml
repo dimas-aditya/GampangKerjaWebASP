@@ -1,0 +1,166 @@
+﻿﻿@{ ViewBag.Title = "Create Account Page";
+    Layout = "~/Views/Shared/_LayoutNoHead.cshtml";
+    }
+@using HCMSSMI.ViewModels
+
+
+@{ bool isAlertResponse = ViewBag.IsAlertResponse;
+    var alertBody = ViewBag.ActivityResponsMessage;
+}
+
+@model UserAuthViewModel
+<!doctype html>
+<html lang="en">
+
+<!-- signup42:17-->
+<head>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="~/Content/JobPortal/assets/plugins/css/plugins.css">
+
+    <!-- Custom style -->
+    <link href="~/Content/JobPortal/assets/css/style.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" id="jssDefault" href="~/Content/JobPortal/assets/css/colors/green-style.css">
+
+</head>
+<body class="simple-bg-screen" style="background-image: url(https://www.gampangkerja.id/wp-content/uploads/2020/10/hero.jpg);">
+    @*<div class="Loader"></div>*@
+    <div class="wrapper">
+
+        <!-- Title Header Start -->
+        <section class="signup-screen-sec">
+            <div class="container">
+                <div class="signup-screen">
+                    <a href="index-2.html"><img src="~/Content/JobPortal/assets/img/logo.png" class="img-responsive" alt=""></a>
+                    <form action="@Url.Action("Registration", "Home")" method="POST" id="registration-form">
+                        @Html.ValidationSummary("", new { @class = "text-danger" })
+                        @Html.AntiForgeryToken()
+                        @Html.TextBoxFor(model => model.FullName, new { @class = "form-control", @required = "required", @placeholder = "Enter your name..." })
+                        @Html.TextBoxFor(model => model.Email, new { @class = "form-control", @required = "required", @placeholder = "Enter your email...", @type = "email" })
+                        @Html.TextBoxFor(model => model.Username, new { @class = "form-control", @required = "required", @placeholder = "Enter your username..." })
+                        <div class="col-md-12 no-padd">
+                            <div class="input-group form-control">
+                                @Html.DropDownListFor(model => model.RoleID, new SelectList(ViewBag.UserRoleList, "ID", "Name"), new { @id = "choose-city", @required = "required" })
+                            </div>
+                        </div>
+                        @Html.PasswordFor(model => model.Password, new { @class = "form-control", @required = "required", @placeholder = "Enter your password..." })
+                        <div class="col-12">
+                            <div class="text-center">
+                                <p class="w-75 mb-2 mx-auto">
+                                    By clicking Sign Up, you agree to our <strong>Terms</strong> and that you have
+                                    read our <strong>Data Use Policy</strong>, including our <string>Cookie Use</string>.
+                                </p>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        I agree with the Terms and Conditions
+                                    </label>
+                                </div>
+                            </div>
+                        </div> <!-- end col -->
+                        <button class="btn btn-login" type="submit">Sign Up</button>
+                        <span>Have You Account? <a href="/Home/signin"> Login</a></span>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <button class="w3-button w3-teal w3-xlarge w3-right" onclick="openRightMenu()"><i class="spin fa fa-cog" aria-hidden="true"></i></button>
+        <div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-right" style="display:none;right:0;" id="rightMenu">
+            <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+            <ul id="styleOptions" title="switch styling">
+                <li>
+                    <a href="javascript: void(0)" class="cl-box blue" data-theme="colors/blue-style"></a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" class="cl-box red" data-theme="colors/red-style"></a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" class="cl-box purple" data-theme="colors/purple-style"></a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" class="cl-box green" data-theme="colors/green-style"></a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" class="cl-box dark-red" data-theme="colors/dark-red-style"></a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" class="cl-box orange" data-theme="colors/orange-style"></a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" class="cl-box sea-blue" data-theme="colors/sea-blue-style "></a>
+                </li>
+                <li>
+                    <a href="javascript: void(0)" class="cl-box pink" data-theme="colors/pink-style"></a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Scripts
+        ================================================== -->
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/jquery.min.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/viewportchecker.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/bootsnav.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/select2.min.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/wysihtml5-0.3.0.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/bootstrap-wysihtml5.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/datedropper.min.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/dropzone.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/loader.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/slick.min.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/gmap3.min.js"></script>
+        <script type="text/javascript" src="~/Content/JobPortal/assets/plugins/js/jquery.easy-autocomplete.min.js"></script>
+
+        <!-- Custom Js -->
+        <script src="~/Content/JobPortal/assets/js/custom.js"></script>
+        <script src="~/Content/JobPortal/assets/js/jQuery.style.switcher.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#styleOptions').styleSwitcher();
+            });</script>
+        <script>
+            function openRightMenu() {
+                document.getElementById("rightMenu").style.display = "block";
+            }
+
+            function closeRightMenu() {
+                document.getElementById("rightMenu").style.display = "none";
+            }</script>
+    </div>
+</body>
+
+<!-- signup42:17-->
+</html>
+
+@if (isAlertResponse)
+{
+    <script>
+            let message =  @Html.Raw(Json.Encode(@alertBody.Message));
+            let type = @Html.Raw(Json.Encode(@alertBody.Type));
+
+            function AlertMessage(message, type) {
+                switch (type.toLowerCase()) {
+                    case "success":
+                        toastr.success(message);
+                        break;
+                    case "info":
+                        toastr.info(info);
+                        break;
+                    case "warning":
+                        toastr.warning(message);
+                        break;
+                    case "error":
+                        toastr.error(message);
+                        break;
+                    default:
+                        break;
+
+                }
+            }
+
+            AlertMessage(message, type);
+
+    </script>
+
+}

@@ -1,0 +1,568 @@
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll.config
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Kendo.Mvc.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Web.Infrastructure.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Razor.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\WebActivatorEx.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\WebGrease.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\RestSharp.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Http.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Net.Http.Formatting.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Razor.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\RestSharp.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csprojAssemblyReference.cache
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CopyComplete
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll.config
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Ninject.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.Razor.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\WebActivatorEx.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\WebGrease.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\RestSharp.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\MoreLinq.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.ValueTuple.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\EntityFramework.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Ninject.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.Razor.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\RestSharp.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\MoreLinq.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\MoreLinq.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\bin\System.ValueTuple.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csprojAssemblyReference.cache
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CoreCompileInputs.cache
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CopyComplete
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.ValueTuple.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI\bin\System.ValueTuple.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll.config
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Kendo.Mvc.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Web.Infrastructure.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Owin.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\RestSharp.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Razor.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\WebActivatorEx.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\WebGrease.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Http.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.ValueTuple.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Net.Http.Formatting.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\RestSharp.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Razor.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\System.ValueTuple.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csprojAssemblyReference.cache
+D:\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CopyComplete
+D:\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll.config
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Web.Infrastructure.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Owin.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\RestSharp.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.ValueTuple.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Razor.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\WebActivatorEx.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\WebGrease.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\RestSharp.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.ValueTuple.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Razor.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csprojAssemblyReference.cache
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CoreCompileInputs.cache
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CopyComplete
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll.config
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll.config
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll.config
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Kendo.Mvc.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Owin.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\RestSharp.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.ValueTuple.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Razor.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\WebActivatorEx.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\WebGrease.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Http.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Net.Http.Formatting.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\MoreLinq.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\RestSharp.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.ValueTuple.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.Razor.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csprojAssemblyReference.cache
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CopyComplete
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll.config
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll.config
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll.config
+D:\hcms-smi\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\MoreLinq.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Ninject.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Owin.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\RestSharp.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.ValueTuple.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.Razor.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\WebActivatorEx.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\WebGrease.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\EntityFramework.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\MoreLinq.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\MoreLinq.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Ninject.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\RestSharp.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.ValueTuple.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.Razor.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csprojAssemblyReference.cache
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CopyComplete
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll.config
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Web.Infrastructure.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\MoreLinq.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Ninject.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Owin.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\RestSharp.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.ValueTuple.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.Razor.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\WebActivatorEx.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\WebGrease.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll.config
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll.config
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll.config
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll.config
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\EntityFramework.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\MoreLinq.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\MoreLinq.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Ninject.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\RestSharp.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.ValueTuple.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.Razor.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csprojAssemblyReference.cache
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CoreCompileInputs.cache
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CopyComplete
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll.config
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\MoreLinq.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Ninject.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Owin.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\RestSharp.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.ValueTuple.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.Razor.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\WebActivatorEx.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\WebGrease.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll.config
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll.config
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Reader.dll.config
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\HCMSSMI.Writer.dll.config
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\EntityFramework.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\MoreLinq.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\MoreLinq.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Newtonsoft.Json.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Ninject.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\Ninject.Web.Mvc.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\RestSharp.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.ValueTuple.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.Helpers.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.Mvc.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.Optimization.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.Razor.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csprojAssemblyReference.cache
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CopyComplete
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.pdb

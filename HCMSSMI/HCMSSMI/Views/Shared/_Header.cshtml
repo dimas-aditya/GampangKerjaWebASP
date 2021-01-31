@@ -1,0 +1,60 @@
+﻿<!-- NAVBAR START -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+
+        <!-- logo -->
+        <a href="index" class="navbar-brand mr-lg-5">
+            <img src="~/Images/logo/syntech-logo.png" alt="" class="logo-dark" height="40" width="120" />
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="mdi mdi-menu"></i>
+        </button>
+
+        <!-- menus -->
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <!-- left menu -->
+            <ul class="navbar-nav mr-auto align-items-center">
+                <li class="nav-item mx-lg-1">
+                    <a class="nav-link active" href="/Home/Index"><b>Beranda</b></a>
+                </li>
+                <li class="nav-item mx-lg-1">
+                    <a class="nav-link" href=""><b>Blog</b></a>
+                </li>
+                <li class="nav-item mx-lg-1">
+                    <a class="nav-link" href=""><b>Cari Lowongan</b></a>
+                </li>
+                <li class="nav-item mx-lg-1">
+                    <a class="nav-link" href=""><b>Pasang Lowongan</b></a>
+                </li>
+                <li class="nav-item mx-lg-1">
+                    <a class="nav-link" href=""><b>Contact</b></a>
+                </li>
+            </ul>
+
+            <!-- right menu -->
+            @if (ViewBag.UserLogin != null)
+            {
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item mr-0">
+                        @{ Html.RenderAction("LogedInUsers", "Account");}
+                    </li>
+                </ul>
+            }
+            else
+            {
+                <ul class="navbar-nav ml-auto align-items-center">
+                    <li class="nav-item mr-0">
+                        <a href="@Url.Action("signin", "Home")" class="btn btn-sm btn-warning btn-rounded d-lg-inline-flex">
+                            <i class="mdi mdi-login mr-2"></i> Login
+                        </a>
+                    </li>
+                </ul>
+            }
+
+        </div>
+    </div>
+</nav>
+<!-- NAVBAR END -->

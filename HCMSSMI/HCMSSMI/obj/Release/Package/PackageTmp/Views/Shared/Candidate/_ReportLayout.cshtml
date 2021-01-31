@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - Gampang Kerja</title>
+
+    @Html.Partial("~/Views/Shared/_IncludeTopPartialScripts.cshtml")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container-fluid">
+     
+       
+            <div class="content">
+              
+                <!-- Start Content-->
+                <div class="container-fluid">
+                    @RenderBody()
+                </div>
+                <!-- container -->
+            </div>
+            <!-- content -->
+   
+    </div>
+
+
+    @RenderSection("scripts", required: false)
+    @Html.Partial("~/Views/Shared/_Modal.cshtml")
+
+</body>
+</html>
+

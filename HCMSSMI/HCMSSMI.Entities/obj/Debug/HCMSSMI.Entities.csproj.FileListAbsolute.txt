@@ -1,0 +1,93 @@
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\Newtonsoft.Json.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\Newtonsoft.Json.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Entities\bin\Debug\Newtonsoft.Json.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CoreCompileInputs.cache
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\Newtonsoft.Json.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CoreCompileInputs.cache
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll.config
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Buffers.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Memory.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Numerics.Vectors.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Buffers.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Memory.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll.config
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Buffers.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Memory.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Buffers.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Memory.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll.config
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Buffers.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Memory.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Numerics.Vectors.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CoreCompileInputs.cache
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll.config
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Buffers.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Memory.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb

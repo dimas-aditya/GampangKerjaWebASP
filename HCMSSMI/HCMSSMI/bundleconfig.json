@@ -1,0 +1,122 @@
+[
+  {
+    "outputFileName": "Content/main/app.min.css",
+    "inputFiles": [
+      "Content/main/app.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/main/icons.min.css",
+    "inputFiles": [
+      "Content/main/icons.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/main/app.min.js",
+    "inputFiles": [
+      "Scripts/main/app.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/main/main.min.css",
+    "inputFiles": [
+      "Content/main/main.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/kendo/Default/kendo-bootstrap.min.css",
+    "inputFiles": [
+      "Content/kendo/Default/kendo-bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/bootstrap.min.css",
+    "inputFiles": [
+      "Content/bootstrap.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/vendor/dataTables.bootstrap4.min.css",
+    "inputFiles": [
+      "Content/vendor/dataTables.bootstrap4.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/vendor/summernote-bs4.min.css",
+    "inputFiles": [
+      "Content/vendor/summernote-bs4.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/css/vendor/buttons.bootstrap4.min.css",
+    "inputFiles": [
+      "Content/css/vendor/buttons.bootstrap4.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/css/vendor/responsive.bootstrap4.min.css",
+    "inputFiles": [
+      "Content/css/vendor/responsive.bootstrap4.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/css/vendor/select.bootstrap4.min.css",
+    "inputFiles": [
+      "Content/css/vendor/select.bootstrap4.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/css/vendor/simplemde.min.min.css",
+    "inputFiles": [
+      "Content/css/vendor/simplemde.min.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/main/custom.min.js",
+    "inputFiles": [
+      "Scripts/main/custom.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/icons.min.css",
+    "inputFiles": [
+      "Content/icons.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/app.min.css",
+    "inputFiles": [
+      "Content/app.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/custom.min.js",
+    "inputFiles": [
+      "Scripts/custom.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/pages/datatable-initializer.min.js",
+    "inputFiles": [
+      "Scripts/pages/datatable-initializer.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/DataTables/css/buttons.dataTables.min.css",
+    "inputFiles": [
+      "Content/DataTables/css/buttons.dataTables.css"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/DataTables/dataTables.buttons.min.js",
+    "inputFiles": [
+      "Scripts/DataTables/dataTables.buttons.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/kendo/2020.1.219/kendo.flat.min.css",
+    "inputFiles": [
+      "Content/kendo/2020.1.219/kendo.flat.css"
+    ]
+  }
+]

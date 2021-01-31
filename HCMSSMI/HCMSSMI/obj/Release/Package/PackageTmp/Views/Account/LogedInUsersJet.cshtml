@@ -1,0 +1,64 @@
+﻿@model HCMSSMI.Entities.Models.Login.Users
+
+
+<nav class="main-menu">
+    <ul>
+        <li>
+            <a href="#">Account <small class="icon-arrow"></small></a>
+            <ul class="sub-menu">
+
+                <li>
+                    <a class="nav-link dropdown-toggle nav-user arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false"
+                       aria-expanded="false">
+                        <!-- item-->
+
+                        <span class="account-user-avatar">
+                            <img src="~/Images/assets/man.png" alt="user-image" class="rounded-circle">
+                        </span>
+                        <span>
+                            <span class="account-user-name">@Html.DisplayFor(model => model.FullName)</span>
+                            <span class="account-position">@Html.DisplayFor(model => model.Roles.Description)</span>
+                        </span>
+                    </a>
+                    <div>
+                        <!-- item-->
+                        <div class=" dropdown-header noti-title">
+                            <h6 class="text-overflow m-0">Welcome !</h6>
+                        </div>
+
+                        <!-- item-->
+                        <a href="/Dashboard/Index" class="dropdown-item notify-item">
+                            <i class="mdi mdi-account-circle mr-1"></i>
+                            <span>Dashboard</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="mdi mdi-account-edit mr-1"></i>
+                            <span>Settings</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="mdi mdi-lifebuoy mr-1"></i>
+                            <span>Support</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <i class="mdi mdi-lock-outline mr-1"></i>
+                            <span>Lock Screen</span>
+                        </a>
+
+                        <!-- item-->
+                        <a href="@Url.Action("Logout","Account")" class="dropdown-item notify-item">
+                            <i class="mdi mdi-logout mr-1"></i>
+                            <span>Logout</span>
+                        </a>
+
+                    </div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>

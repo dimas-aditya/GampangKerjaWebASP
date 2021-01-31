@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - Gampang Kerja</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    @Html.Partial("~/Views/Shared/_IncludeTopPartialScripts.cshtml")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="container-fluid">
+        @Html.Partial("~/Views/Shared/Employer/_Sidebar.cshtml")
+        <div class="content-page">
+            <div class="content">
+                @Html.Partial("~/Views/Shared/Employer/_Header.cshtml")
+
+                <!-- Start Content-->
+                <div class="container-fluid">
+                    @RenderBody()
+                </div>
+                <!-- container -->
+
+            </div>
+            <!-- content -->
+        </div>
+    </div>
+
+
+    @RenderSection("scripts", required: false)
+    @Html.Partial("~/Views/Shared/_IncludeBottomPartialScripts.cshtml")
+    @Html.Partial("~/Views/Shared/_Modal.cshtml")
+
+</body>
+</html>
+

@@ -1,0 +1,184 @@
+C:\Users\muhammad.hari\Desktop\HCMSSMI.Writer\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll
+C:\Users\muhammad.hari\Desktop\HCMSSMI.Writer\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.pdb
+C:\Users\muhammad.hari\Desktop\HCMSSMI.Writer\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csprojAssemblyReference.cache
+C:\Users\muhammad.hari\Desktop\HCMSSMI.Writer\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.dll
+C:\Users\muhammad.hari\Desktop\HCMSSMI.Writer\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\WebActivatorEx.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csprojAssemblyReference.cache
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CopyComplete
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\WebActivatorEx.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csprojAssemblyReference.cache
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CoreCompileInputs.cache
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CopyComplete
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\WebActivatorEx.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csprojAssemblyReference.cache
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CopyComplete
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\WebActivatorEx.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csprojAssemblyReference.cache
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CoreCompileInputs.cache
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CopyComplete
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll.config
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll.config
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\WebActivatorEx.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll.config
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csprojAssemblyReference.cache
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CopyComplete
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll.config
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll.config
+D:\hcms-smi\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\WebActivatorEx.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll.config
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csprojAssemblyReference.cache
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CopyComplete
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll.config
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\Microsoft.Web.Infrastructure.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\WebActivatorEx.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll.config
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.pdb
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll.config
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.xml
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csprojAssemblyReference.cache
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CoreCompileInputs.cache
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CopyComplete
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.dll
+E:\Dimas\RDS\Project\frontend\gampangkerja-web\gampangkerja-web\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll.config
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Writer.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\WebActivatorEx.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Entities.dll.config
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.pdb
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\HCMSSMI.Extensions.dll.config
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\bin\Debug\RestSharp.xml
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csprojAssemblyReference.cache
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.csproj.CopyComplete
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.dll
+C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Writer\obj\Debug\HCMSSMI.Writer.pdb

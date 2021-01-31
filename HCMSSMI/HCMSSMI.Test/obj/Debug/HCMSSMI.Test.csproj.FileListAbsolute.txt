@@ -1,0 +1,147 @@
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.pdb
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.xml
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csprojAssemblyReference.cache
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csproj.CopyComplete
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.dll
+D:\GitLab\AppClient (ASP)\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.pdb
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.xml
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csprojAssemblyReference.cache
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csproj.CoreCompileInputs.cache
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csproj.CopyComplete
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.dll
+C:\Users\developer\Downloads\hcms-smi-ON_PRODUCTION_24072020\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.pdb
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.xml
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csprojAssemblyReference.cache
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csproj.CopyComplete
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.dll
+D:\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.pdb
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.xml
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csprojAssemblyReference.cache
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csproj.CoreCompileInputs.cache
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csproj.CopyComplete
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.dll
+D:\Dimas\RDS\Project\frontend\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.pdb
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.xml
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csprojAssemblyReference.cache
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csproj.CopyComplete
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.dll
+C:\Users\muhammad.hari\Desktop\hcms-smi\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\HCMSSMI.Test.pdb
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\Castle.Core.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\Moq.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.abstractions.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.assert.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.core.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\bin\Debug\xunit.execution.desktop.xml
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csprojAssemblyReference.cache
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csproj.CoreCompileInputs.cache
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.csproj.CopyComplete
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.dll
+C:\Users\Thinkpad\Downloads\hcms-smi-master\hcms-smi-master\HCMSSMI\HCMSSMI.Test\obj\Debug\HCMSSMI.Test.pdb

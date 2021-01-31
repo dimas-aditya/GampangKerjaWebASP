@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+
+    if (ViewBag.roleID == "1" || ViewBag.roleID == "3")
+    {
+        Layout = "~/Views/Shared/Admin/_AdminLayoutJet.cshtml";
+
+    }
+    else if (ViewBag.roleID == "4")
+    {
+        Layout = "~/Views/Shared/Candidate/_CandidateLayoutJet.cshtml";
+
+    }
+    else if (ViewBag.roleID == "5")
+    {
+        Layout = "~/Views/Shared/Employer/_EmployerLayoutJet.cshtml";
+
+    }
+}
+
+
+@{ bool isAlertResponse = ViewBag.IsAlertResponse;
+    var alertBody = ViewBag.ActivityResponsMessage;
+}
+
+
+
+<!-- START FEATURES 2 -->
+<section class="py-5">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <h1 class="mt-0"><i class="mdi mdi-heart-multiple-outline"></i></h1>
+                    <h3>What you'll <span class="text-danger">love</span></h3>
+                    <p class="text-muted mt-2">
+                        SMI has a good relationship with the network of health care providers (PPK) wide <br />
+                        Providers ( Hospitals, Clinics, Labs, Optics, etc ) have been evenly spread out through out Indonesia and not to mention<br />
+                        Hospitals in Singapore and Malaysia
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-2 py-5 align-items-center">
+            <div class="col-lg-5">
+                <img src="~/Images/assets/community-health.svg" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+                <h3 class="font-weight-normal">What we offer ?</h3>
+                <p class="text-muted mt-3">We provide specialist services and products for Healthcare to ensure you're safely, smartly and cost efficiently.</p>
+
+                <div class="mt-4">
+                    <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Support Current Technology Web Portal</p>
+                    <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> 24 Hours medical Team and Call Center</p>
+                    <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Free Health Talk and Health Check</p>
+                    <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Medical Investigation </p>
+                    <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> System and Reporting which can be suited to Client’s need</p>
+                    <p class="text-muted"><i class="mdi mdi-circle-medium text-primary"></i> Efficient and Reasonable Price</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pb-3 pt-5 align-items-center">
+            <div class="col-lg-6">
+                <h3 class="font-weight-normal">Our Solutions</h3>
+                <p class="text-muted mt-3"> We communicate with the best providers, invest in people development and service automation enablement and creating an end-to-end service with our parent company</p>
+
+
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <img src="~/Images/assets/digital-health.svg" class="img-fluid" alt="">
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- END FEATURES 2 -->
+
+@if (isAlertResponse)
+{
+    <script>
+            let message =  @Html.Raw(Json.Encode(@alertBody.Message));
+            let type = @Html.Raw(Json.Encode(@alertBody.Type));
+
+            function AlertMessage(message, type) {
+                switch (type.toLowerCase()) {
+                    case "success":
+                        toastr.success(message);
+                        break;
+                    case "info":
+                        toastr.info(info);
+                        break;
+                    case "warning":
+                        toastr.warning(message);
+                        break;
+                    case "error":
+                        toastr.error(message);
+                        break;
+                    default:
+                        break;
+
+                }
+            }
+
+            AlertMessage(message, type);
+
+    </script>
+
+}
+

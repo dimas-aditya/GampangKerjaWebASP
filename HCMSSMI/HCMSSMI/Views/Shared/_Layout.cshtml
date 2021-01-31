@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - Gampang Kerja</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    @Html.Partial("~/Views/Shared/_IncludeTopPartialScripts.cshtml")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    @Html.Partial("~/Views/Shared/_HeaderJet.cshtml")
+
+    @RenderBody()
+
+    @RenderSection("scripts", required: false)
+    @Html.Partial("~/Views/Shared/_IncludeBottomPartialScripts.cshtml")
+    @Html.Partial("~/Views/Shared/_Modal.cshtml")
+
+
+    <!-- Placed js at the end of the document so the pages load faster -->
+    <!-- All jquery file included here -->
+    <script src="~/Content/Jetapo/assets/js/vendor/jquery-3.5.0.min.js"></script>
+    <script src="~/Content/Jetapo/assets/js/vendor/jquery-migrate-3.1.0.min.js"></script>
+    <script src="~/Content/Jetapo/assets/js/vendor/bootstrap.bundle.min.js"></script>
+    <!-- <script src="~/Content/Jetapo/assets/js/plugins/plugins.js"></script> -->
+    <!-- Use the minified version files listed below for better performance and remove the files listed above -->
+    <script src="~/Content/Jetapo/assets/js/plugins/plugins.min.js"></script>
+    <script src="~/Content/Jetapo/assets/js/main.js"></script>
+</body>
+</html>
+
