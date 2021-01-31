@@ -1,4 +1,5 @@
-﻿using HCMSSMI.Entities.Models.Profile;
+﻿using HCMSSMI.Entities.Models.Candidate;
+using HCMSSMI.Entities.Models.Profile;
 using HCMSSMI.Reader;
 using HCMSSMI.Writer;
 using System;
@@ -53,7 +54,44 @@ namespace HCMSSMI.Controllers
         //    return View();
         //}
 
-       
+
+        #region Search Candidate
+
+        [HttpGet]
+        public async Task<ActionResult> searchCandidate([Bind] SearchCandidate searchCandidate)
+        {
+            //var corporateList = await reader.GetCorporate();
+            //var payerList = await reader.GetPayer();
+            //var providerList = await reader.GetProvider();
+            //var caseStatusList = await reader.GetStatusCasesDetailAsync();
+
+            //ViewBag.CorporateList = corporateList;
+            //ViewBag.PayerList = payerList;
+            //ViewBag.ProviderList = providerList;
+            //ViewBag.CaseStatusList = caseStatusList;
+
+          
+                var item = new SearchCandidate()
+                {
+                    Username = searchCandidate.Username,
+                    Experience = searchCandidate.Experience,
+                    Gender = searchCandidate.Gender,
+                    CreateDate = searchCandidate.CreateDate,
+                    Skills = searchCandidate.Skills,
+                    Type = searchCandidate.Type
+                };
+                var candidateResult = await reader.SearchCandidate(item);
+                ViewBag.CandidateList = candidateResult;
+
+            var count = candidateResult.Count();
+            ViewBag.CountCandidateList = count;
+
+            return View();
+
+        }
+
+        #endregion
+
         // GET: Candidate
         [HttpGet]
         public async Task<ActionResult> CandidateDetail(string nama, string clientKey = null, string apiKey = null)

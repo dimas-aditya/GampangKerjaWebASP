@@ -1,4 +1,5 @@
 ﻿using HCMSSMI.Entities.Models;
+using HCMSSMI.Entities.Models.Candidate;
 using HCMSSMI.Entities.Models.Login;
 using HCMSSMI.Entities.Models.Profile;
 using HCMSSMI.Entities.Models.RestRequest;
@@ -26,6 +27,12 @@ namespace HCMSSMI.Reader
 
         Task<RestResponse<Profile>> SearchProfileIndex(string userName, string clientKey = null, string apiKey = null);
 
+
+        #endregion
+
+        #region Candidate 
+
+        Task<IEnumerable<Profile>> SearchCandidate(SearchCandidate cases, string clientKey = null, string apiKey = null);
 
         #endregion
     }

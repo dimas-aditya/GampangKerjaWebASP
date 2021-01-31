@@ -16,6 +16,7 @@ namespace HCMSSMI.Utils
 
 
         //...........................BASE
+
         public static string URL_Cases = "http://www.smi-cases" + URL_STAGING;
         public static string URL_Beneficiary = "http://www.smi-beneficiary" + URL_STAGING;
         public static string URL_BillingCalculation = "http://www.smi-billing-calculation" + URL_STAGING;
