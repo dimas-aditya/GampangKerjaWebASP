@@ -11,6 +11,8 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
+using PagedList;
+using PagedList.Mvc;
 
 namespace HCMSSMI.Controllers
 {
@@ -58,20 +60,25 @@ namespace HCMSSMI.Controllers
         #region Search Candidate
 
         [HttpGet]
-        public async Task<ActionResult> searchCandidate([Bind] SearchCandidate searchCandidate)
+        public async Task<ActionResult> searchCandidate([Bind] SearchCandidate searchCandidate, string sortOrder, string currentFilter, string searchString, int? page)
         {
-            //var corporateList = await reader.GetCorporate();
-            //var payerList = await reader.GetPayer();
-            //var providerList = await reader.GetProvider();
-            //var caseStatusList = await reader.GetStatusCasesDetailAsync();
+            ViewBag.CurrentSort = sortOrder;
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
 
-            //ViewBag.CorporateList = corporateList;
-            //ViewBag.PayerList = payerList;
-            //ViewBag.ProviderList = providerList;
-            //ViewBag.CaseStatusList = caseStatusList;
+            if (searchString != null)
+            {
+                page = 1;
+            }
+            else
+            {
+                searchString = currentFilter;
+            }
 
-          
-                var item = new SearchCandidate()
+            ViewBag.CurrentFilter = searchString;
+
+
+            var item = new SearchCandidate()
                 {
                     Username = searchCandidate.Username,
                     Experience = searchCandidate.Experience,
@@ -83,8 +90,14 @@ namespace HCMSSMI.Controllers
                 var candidateResult = await reader.SearchCandidate(item);
                 ViewBag.CandidateList = candidateResult;
 
+
             var count = candidateResult.Count();
             ViewBag.CountCandidateList = count;
+
+            int pageSize = 3;
+            int pageNumber = (page ?? 1);
+
+           var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
 
             return View();
 

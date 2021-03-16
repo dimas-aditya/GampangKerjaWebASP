@@ -66,6 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Candidate\SearchCandidate.cs" />
     <Compile Include="Models\DiagnosesCollection.cs" />
     <Compile Include="Models\ICD.cs" />
     <Compile Include="Models\Login\Roles.cs" />
