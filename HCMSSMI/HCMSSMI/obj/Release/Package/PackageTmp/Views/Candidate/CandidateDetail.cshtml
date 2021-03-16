@@ -33,9 +33,9 @@
                     <div class="col-12">
                         <div class="page-breadcrumb-content mb-40">
                             <ul class="page-breadcrumb">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="job-listing.html">Employers</a></li>
-                                <li><a href="/Candidate/CandidateDetail?nama=@Model.Username">@Model.Username</a></li>
+                                <li><a href="/Home/Index">Home</a></li>
+                                <li><a href="/Candidate/SearchCandidate">Candidate</a></li>
+                                <li><a href="/Candidate/CandidateDetail?nama=@Model.Username">@Model.Username.ToUpper()</a></li>
                             </ul>
                         </div>
                     </div>
@@ -47,9 +47,21 @@
                                 <a href="#"><img src="~/Content/Jetapo/assets/images/companies_logo/logo-10.jpg" alt=""></a>
                             </div>
                             <div class="employer-content">
-                                <h1 class="employer-name">
-                                    @Model.FullName <i class="fas fa-check-circle"></i></h1>
-                                <p>   Akun Terverifikasi</p>
+                                @if (Model.StatusVerify == "Verified")
+                                {
+                                    <h1 class="employer-name">
+                                        @Model.FullName <i class="fas fa-check-circle"></i>
+                                    </h1>
+                                    <p>Akun Terverifikasi</p>
+                                }
+                                else
+                                {
+                                    <h1 class="employer-name">
+                                        @Model.FullName
+                                    </h1>
+                                }
+
+
                                 <div class="employer-rate">
                                     <div class="star">
                                         <i class="fa fa-star"></i>
@@ -77,7 +89,10 @@
                                 <div class="sidebar-job-share">
                                     <div class="job-share candidate-action">
                                         <ul>
-                                            <li><a href="/Profile/UpdateProfile"><i class="lnr lnr-menu"></i> <span class="text">Edit </span></a></li>
+                                            @if (@ViewBag.UserLogin == Model.Username)
+                                            {
+                                                <li><a href="/Profile/UpdateProfile"><i class="lnr lnr-menu"></i> <span class="text">Edit </span></a></li>
+                                            }
                                             <li><a href="#"><i class="lnr lnr-heart"></i> <span class="text">Save </span></a></li>
                                             <li>
                                                 <a href="#"><i class="lnr lnr-bubble"></i> <span class="text">Share </span></a>
