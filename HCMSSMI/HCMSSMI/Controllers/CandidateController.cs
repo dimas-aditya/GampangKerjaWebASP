@@ -88,16 +88,18 @@ namespace HCMSSMI.Controllers
                     Type = searchCandidate.Type
                 };
                 var candidateResult = await reader.SearchCandidate(item);
-                ViewBag.CandidateList = candidateResult;
 
 
             var count = candidateResult.Count();
             ViewBag.CountCandidateList = count;
 
-            int pageSize = 3;
+            int pageSize = 5;
             int pageNumber = (page ?? 1);
 
            var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
+            ViewBag.CandidateList = PagelistCandidate;
+
+
 
             return View();
 

@@ -343,74 +343,128 @@
                                     <!--<div class="col-lg-12 mb-20">-->
                                     <!-- Single Job Start  -->
                                     <!--<div class="single-job style-two">
-        <div class="info-top align-items-start">
-            <div class="job-image candidates-image">
-                <a href="candidate-details.html">
-                    <img src="~/Content/Jetapo/assets/images/team/team2.jpg" alt="logo">
-                </a>
-            </div>
-            <div class="job-info">
-                <div class="job-info-inner">
-                    <div class="job-info-top">
-                        <div class="saveJob for-listing">
-                            <span class="featured-label mr-20">featured</span>
-                            <a class="save-job" href="#quick-view-modal-container" data-toggle="modal">
-                                <i class="far fa-heart"></i>
-                            </a>
-                        </div>
-                        <div class="title-name">
-                            <h3 class="job-title">
-                                <a href="candidate-details.html">hohoho</a>
-                            </h3>
-                            <div class="employer-name">
-                                <span>Front End Developer</span>
+            <div class="info-top align-items-start">
+                <div class="job-image candidates-image">
+                    <a href="candidate-details.html">
+                        <img src="~/Content/Jetapo/assets/images/team/team2.jpg" alt="logo">
+                    </a>
+                </div>
+                <div class="job-info">
+                    <div class="job-info-inner">
+                        <div class="job-info-top">
+                            <div class="saveJob for-listing">
+                                <span class="featured-label mr-20">featured</span>
+                                <a class="save-job" href="#quick-view-modal-container" data-toggle="modal">
+                                    <i class="far fa-heart"></i>
+                                </a>
+                            </div>
+                            <div class="title-name">
+                                <h3 class="job-title">
+                                    <a href="candidate-details.html">hohoho</a>
+                                </h3>
+                                <div class="employer-name">
+                                    <span>Front End Developer</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="job-meta-three">
-                        <div class="field-experience-time">
-                            <i class="lnr lnr-graduation-hat"></i>
-                            <span class="label">Experience</span>
-                            <a href="#">3-5 years</a>
+                        <div class="job-meta-three">
+                            <div class="field-experience-time">
+                                <i class="lnr lnr-graduation-hat"></i>
+                                <span class="label">Experience</span>
+                                <a href="#">3-5 years</a>
+                            </div>
+                            <div class="field-map"><i class="lnr lnr-map-marker"></i>Chicago, Illinois</div>
+                            <div class="field-hour-rate">
+                                <i class="lnr lnr-thumbs-up"></i>
+                                <span class="label">Hour Rate</span> $30
+                            </div>
                         </div>
-                        <div class="field-map"><i class="lnr lnr-map-marker"></i>Chicago, Illinois</div>
-                        <div class="field-hour-rate">
-                            <i class="lnr lnr-thumbs-up"></i>
-                            <span class="label">Hour Rate</span> $30
+                        <div class="job-skill-tag">
+                            <a href="#">Android</a>
+                            <a href="#">app</a>
+                            <a href="#">ReactJs</a>
+                            <a href="#">Ruby</a>
                         </div>
-                    </div>
-                    <div class="job-skill-tag">
-                        <a href="#">Android</a>
-                        <a href="#">app</a>
-                        <a href="#">ReactJs</a>
-                        <a href="#">Ruby</a>
-                    </div>
-                    <div class="candidates-portfolio">
-                        <ul>
-                            <li><a href="#"><img src="assets/images/portfolio/portfolio1.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/portfolio/portfolio2.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/portfolio/portfolio3.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/portfolio/portfolio4.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/portfolio/portfolio5.jpg" alt=""></a></li>
-                            <li><a href="#"><img src="assets/images/portfolio/portfolio6.jpg" alt=""></a></li>
-                        </ul>
+                        <div class="candidates-portfolio">
+                            <ul>
+                                <li><a href="#"><img src="assets/images/portfolio/portfolio1.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="assets/images/portfolio/portfolio2.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="assets/images/portfolio/portfolio3.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="assets/images/portfolio/portfolio4.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="assets/images/portfolio/portfolio5.jpg" alt=""></a></li>
+                                <li><a href="#"><img src="assets/images/portfolio/portfolio6.jpg" alt=""></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>-->
+        </div>-->
                                     <!-- Single Job End -->
                                     <!--</div>-->
 
                                 </div>
+                                @*@if (ViewBag.CandidateList != null)
+                                {
+                                    foreach (var item in ViewBag.CandidateList)
+                                    {
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <ul class="page-pagination">
+                                                    <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                                                    <li class="active"><a href="#">1</a></li>
+                                                    <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    }
+                                }*@
+
                                 <div class="row">
                                     <div class="col-12">
                                         <ul class="page-pagination">
-                                            <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
-                                            <li class="active"><a href="#">1</a></li>
-                                            <li><a href="#">2</a></li>
-                                            <li><a href="#">3</a></li>
-                                            <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
+                                            @if (@ViewBag.CandidateList.PageNumber != null)
+                                            {
+                                                var PageBefore = ViewBag.CandidateList.PageNumber;
+                                                var PageLast = ViewBag.CandidateList.PageCount;
+
+                                                if (PageBefore == 1)
+                                                {
+                                                    <li><a href="@Url.Action("SearchCandidate","Candidate", new { page = PageBefore  })"><i class="fa fa-angle-left"></i></a></li>
+                                                }
+                                                else
+                                                {
+                                                    var ResultPage = PageBefore - 1;
+                                                    <li><a href="@Url.Action("SearchCandidate","Candidate", new { page = ResultPage  })"><i class="fa fa-angle-left"></i></a></li>
+                                                }
+
+
+
+                                                for (int i = 0; i < @ViewBag.CandidateList.PageCount; i++)
+                                                {
+                                                    var pg = i + 1;
+                                                    @*<li class="active"><a href="#">@ViewBag.CandidateList.PageNumber</a></li>*@
+                                                    @*<li><a href="#">@pg</a></li>*@
+                                                    if (pg == ViewBag.CandidateList.PageNumber)
+                                                    {
+                                                        <li class="active"><a href="@Url.Action("SearchCandidate","Candidate", new { page = pg  })">@pg</a></li>
+                                                    }
+                                                    else
+                                                    {
+                                                        <li><a href="@Url.Action("SearchCandidate","Candidate", new { page = pg  })">@pg</a></li>
+                                                    }
+
+                                                }
+
+                                                if (PageLast == ViewBag.CandidateList.PageCount)
+                                                {
+                                                    <li><a href="@Url.Action("SearchCandidate","Candidate", new { page = PageLast  })"><i class="fa fa-angle-right"></i></a></li>
+                                                }
+                                                else
+                                                {
+                                                    var ResultPage = PageBefore + 1;
+                                                    <li><a href="@Url.Action("SearchCandidate","Candidate", new { page = ResultPage  })"><i class="fa fa-angle-right"></i></a></li>
+                                                }
+                                            }
                                         </ul>
                                     </div>
                                 </div>
