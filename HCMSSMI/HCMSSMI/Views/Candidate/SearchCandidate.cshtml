@@ -282,7 +282,7 @@
                                                                             </div>
                                                                             <div class="title-name">
                                                                                 <h3 class="job-title">
-                                                                                    <a href="candidate-details.html">@item.FullName</a>
+                                                                                    <a href="@Url.Action("CandidateDetail","Candidate", new { nama = item.Username })">@item.FullName</a>
                                                                                 </h3>
                                                                                 <div class="employer-name">
                                                                                     <span>Front End Developer</span>
@@ -1304,3 +1304,5 @@
             "lengthMenu": [[5, 10, 25, 50, -1], [10, 25, 50, "All"]]
         });
     });
+
+</script>

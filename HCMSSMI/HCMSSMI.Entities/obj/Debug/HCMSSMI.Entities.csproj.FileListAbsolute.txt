@@ -91,3 +91,16 @@ C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entiti
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll.config
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\HCMSSMI.Entities.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Buffers.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Memory.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Numerics.Vectors.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.xml
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CoreCompileInputs.cache
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache
