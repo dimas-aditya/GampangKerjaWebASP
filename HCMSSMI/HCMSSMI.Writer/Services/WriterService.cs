@@ -151,6 +151,7 @@ namespace HCMSSMI.Writer
                     SalaryRange = profile.SalaryRange,
                     Setyourprofile = profile.Setyourprofile,
                     AboutSelf = profile.AboutSelf,
+                    JobTitle = profile.JobTitle,
                     IsActive = profile.IsActive,
                     CreateDate = "0001-01-01T00:00:00",
 

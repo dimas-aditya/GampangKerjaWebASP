@@ -62,6 +62,27 @@ namespace HCMSSMI.Controllers
         [HttpGet]
         public async Task<ActionResult> searchCandidate([Bind] SearchCandidate searchCandidate, string sortOrder, string currentFilter, string searchString, int? page)
         {
+            ViewBag.IsAlertResponse = false;
+            ViewBag.ActivityResponsMessage = null;
+
+            // Info. 
+            var identity = (ClaimsPrincipal)Thread.CurrentPrincipal;
+            string userName = identity.Claims.Where(c => c.Type == ClaimTypes.Name)
+                                                      .Select(c => c.Value).SingleOrDefault();
+            var role = "";
+            if (userName != null)
+            {
+                var fetchingProfileList = await reader.SearchProfileIndex(userName);
+                //side menu validasi 
+                 role = fetchingProfileList.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
+                 ViewBag.roleID = role;
+            }
+            else
+            {
+                ViewBag.roleID = "";
+            }
+
+            //CreateActionInvoker pagination 
             ViewBag.CurrentSort = sortOrder;
             ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
             ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
@@ -87,21 +108,87 @@ namespace HCMSSMI.Controllers
                     Skills = searchCandidate.Skills,
                     Type = searchCandidate.Type
                 };
+
+            if (role == "4" || role == "5"|| role == "" )
+            {
+                var candidateResult = await reader.SearchCandidatePublic(item);
+
+                var count = candidateResult.Count();
+                ViewBag.CountCandidateList = count;
+
+                int pageSize = 5;
+                int pageGridSize = 6;
+
+                int pageNumber = (page ?? 1);
+
+                var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
+                ViewBag.CandidateList = PagelistCandidate;
+
+                ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
+
+
+                return View();
+            }
+            //else if (role == "5")
+            //{
+            //    var candidateResult = await reader.SearchCandidatePublic(item);
+
+            //    var count = candidateResult.Count();
+            //    ViewBag.CountCandidateList = count;
+
+            //    int pageSize = 5;
+            //    int pageGridSize = 6;
+
+            //    int pageNumber = (page ?? 1);
+
+            //    var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
+            //    ViewBag.CandidateList = PagelistCandidate;
+
+            //    ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
+
+
+            //    return View();
+            //} else if (role == "")
+            //{
+            //    var candidateResult = await reader.SearchCandidatePublic(item);
+
+            //    var count = candidateResult.Count();
+            //    ViewBag.CountCandidateList = count;
+
+            //    int pageSize = 5;
+            //    int pageGridSize = 6;
+
+            //    int pageNumber = (page ?? 1);
+
+            //    var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
+            //    ViewBag.CandidateList = PagelistCandidate;
+
+            //    ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
+
+
+            //    return View();
+            //}
+            else
+            {
                 var candidateResult = await reader.SearchCandidate(item);
 
+                var count = candidateResult.Count();
+                ViewBag.CountCandidateList = count;
 
-            var count = candidateResult.Count();
-            ViewBag.CountCandidateList = count;
+                int pageSize = 5;
+                int pageGridSize = 6;
 
-            int pageSize = 5;
-            int pageNumber = (page ?? 1);
+                int pageNumber = (page ?? 1);
 
-           var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
-            ViewBag.CandidateList = PagelistCandidate;
+                var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
+                ViewBag.CandidateList = PagelistCandidate;
+
+                ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
 
 
-
-            return View();
+                return View();
+            }
+            //End pagination 
 
         }
 
@@ -181,6 +268,7 @@ namespace HCMSSMI.Controllers
                         Email = itemValue.Email,
                         FullName = itemValue.FullName,
                         Username = itemValue.Username,
+                        StatusVerify = itemValue.StatusVerify,
                         Profession = itemValue.Profession,
                         DOB = dateFinal,
                         Gender = itemValue.Gender,

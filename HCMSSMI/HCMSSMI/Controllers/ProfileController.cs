@@ -192,6 +192,9 @@ namespace HCMSSMI.Controllers
                 var PhoneRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.Phone == x.Phone)?.Phone;
                 ViewBag.PhoneLabel = PhoneRightLabel;
 
+                var JobTitleRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.JobTitle == x.JobTitle)?.JobTitle;
+                ViewBag.JobTitleLabel = JobTitleRightLabel;
+
                 //formatRight tanggal kanan
                 var DOBRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.DOB == x.DOB)?.DOB;
                 var DOBRightTemp = DOBRightLabel.Substring(0, 10);
@@ -239,6 +242,7 @@ namespace HCMSSMI.Controllers
                         SalaryRange = itemValue.SalaryRange,
                         Setyourprofile = itemValue.Setyourprofile,
                         AboutSelf = itemValue.AboutSelf,
+                        JobTitle = itemValue.JobTitle,
                         IsActive = itemValue.IsActive,
                     };
                 }
@@ -302,6 +306,7 @@ namespace HCMSSMI.Controllers
                 SalaryRange = profile.SalaryRange,
                 Setyourprofile = profile.Setyourprofile,
                 AboutSelf = profile.AboutSelf,
+                JobTitle = profile.JobTitle,
                 IsActive = profile.IsActive,
             };
 
@@ -445,6 +450,10 @@ namespace HCMSSMI.Controllers
 
             var PhoneRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.Phone == x.Phone)?.Phone;
             ViewBag.PhoneLabel = PhoneRightLabel;
+
+            var JobTitleRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.JobTitle == x.JobTitle)?.JobTitle;
+            ViewBag.JobTitleLabel = JobTitleRightLabel;
+
 
             //formatRight tanggal kanan
             var DOBRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.DOB == x.DOB)?.DOB;

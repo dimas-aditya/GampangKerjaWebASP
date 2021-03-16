@@ -32,6 +32,7 @@ namespace HCMSSMI.Reader
 
         #region Candidate 
 
+        Task<IEnumerable<Profile>> SearchCandidatePublic(SearchCandidate cases, string clientKey = null, string apiKey = null);
         Task<IEnumerable<Profile>> SearchCandidate(SearchCandidate cases, string clientKey = null, string apiKey = null);
 
         #endregion
