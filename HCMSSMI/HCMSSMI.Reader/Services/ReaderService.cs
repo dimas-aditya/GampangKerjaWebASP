@@ -175,6 +175,35 @@ namespace HCMSSMI.Reader
 
 
         #region Candidate
+        public async Task<IEnumerable<Profile>> SearchCandidatePublic(SearchCandidate candidate, string clientKey = null, string apiKey = null)
+        {
+            List<Profile> candidateList = new List<Profile>();
+
+            try
+            {
+                configuration.ClientURL = @ServerApi.URL_AuthGateway;
+
+
+                if ((!string.IsNullOrEmpty(clientKey) && !string.IsNullOrEmpty(apiKey)))
+                    configuration.Client.Authenticator = new HttpBasicAuthenticator(clientKey, apiKey);
+
+                configuration.RequestURL = $"SearchCandidatePublic";
+                configuration.Client = new RestClient($"{configuration.ClientURL}");
+                configuration.Request = new RestRequest($"{configuration.RequestURL}", Method.POST, DataFormat.Json);
+                configuration.Request.AddJsonBody(candidate);
+
+                var response = configuration.Client.Execute<List<Profile>>(configuration.Request);
+
+                return response.Data;
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"An error occured when request to API: {ex.Message}");
+            }
+
+            return await Task.FromResult(candidateList);
+        }
 
         public async Task<IEnumerable<Profile>> SearchCandidate(SearchCandidate candidate, string clientKey = null, string apiKey = null)
         {

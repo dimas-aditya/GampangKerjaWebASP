@@ -11,6 +11,7 @@ namespace HCMSSMI.Entities.Models.Profile
         public string Email { get; set; }
         public string FullName { get; set; }
         public string RoleID { get; set; }
+        public string StatusVerify { get; set; }
         public string ProfileID { get; set; }
         public string Username { get; set; }
         public string Profession { get; set; }
@@ -26,8 +27,8 @@ namespace HCMSSMI.Entities.Models.Profile
         public string SalaryRange { get; set; }
         public string Setyourprofile { get; set; }
         public string AboutSelf { get; set; }
+        public string JobTitle { get; set; }
         public string CreateDate { get; set; }
-
         public string IsActive { get; set; }
     }
 }
