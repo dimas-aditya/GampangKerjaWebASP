@@ -20,46 +20,46 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/11/2021 11:48:25</publishTime>
     </File>
     <File Include="bin/HCMSSMI.dll">
-      <publishTime>01/31/2021 13:34:02</publishTime>
+      <publishTime>03/17/2021 10:36:23</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Entities.dll">
-      <publishTime>01/31/2021 13:34:01</publishTime>
+      <publishTime>03/17/2021 10:36:22</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Entities.dll.config">
       <publishTime>01/11/2021 11:48:25</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Entities.pdb">
-      <publishTime>01/31/2021 13:34:01</publishTime>
+      <publishTime>03/17/2021 10:36:22</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Extensions.dll">
-      <publishTime>01/31/2021 13:34:01</publishTime>
+      <publishTime>03/17/2021 10:36:23</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Extensions.dll.config">
       <publishTime>01/11/2021 11:48:25</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Extensions.pdb">
-      <publishTime>01/31/2021 13:34:01</publishTime>
+      <publishTime>03/17/2021 10:36:23</publishTime>
     </File>
     <File Include="bin/HCMSSMI.pdb">
-      <publishTime>01/31/2021 13:34:02</publishTime>
+      <publishTime>03/17/2021 10:36:23</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Reader.dll">
-      <publishTime>01/31/2021 13:34:01</publishTime>
+      <publishTime>03/17/2021 10:36:23</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Reader.dll.config">
       <publishTime>01/11/2021 11:48:25</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Reader.pdb">
-      <publishTime>01/31/2021 13:34:01</publishTime>
+      <publishTime>03/17/2021 10:36:23</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Writer.dll">
-      <publishTime>01/31/2021 13:34:01</publishTime>
+      <publishTime>03/17/2021 10:36:23</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Writer.dll.config">
       <publishTime>01/11/2021 11:48:25</publishTime>
     </File>
     <File Include="bin/HCMSSMI.Writer.pdb">
-      <publishTime>01/31/2021 13:34:01</publishTime>
+      <publishTime>03/17/2021 10:36:23</publishTime>
     </File>
     <File Include="bin/Kendo.Mvc.dll">
       <publishTime>01/11/2021 11:48:25</publishTime>
@@ -111,6 +111,12 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     </File>
     <File Include="bin/Owin.dll">
       <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/PagedList.dll">
+      <publishTime>09/30/2013 17:36:38</publishTime>
+    </File>
+    <File Include="bin/PagedList.Mvc.dll">
+      <publishTime>09/30/2013 18:15:20</publishTime>
     </File>
     <File Include="bin/RestSharp.dll">
       <publishTime>01/13/2020 01:02:42</publishTime>
@@ -1477,287 +1483,14 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <File Include="Content/Jetapo/assets/js/vendor/modernizr-3.10.0.min.js">
       <publishTime>05/17/2020 13:26:36</publishTime>
     </File>
-    <File Include="Content/JobPortal/assets/css/colors/green-style.css">
-      <publishTime>03/30/2019 23:00:56</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/css/style.css">
-      <publishTime>03/30/2019 22:04:22</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/6604.jpg">
-      <publishTime>03/30/2019 22:04:26</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/banner-10.jpg">
-      <publishTime>03/30/2019 22:04:24</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/banner-2.jpg">
-      <publishTime>03/30/2019 22:04:24</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/banner-3.jpg">
-      <publishTime>03/30/2019 22:04:26</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/banner-4.jpg">
-      <publishTime>03/30/2019 22:04:24</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/banner-5.jpg">
-      <publishTime>03/30/2019 22:04:26</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/banner-6.jpg">
-      <publishTime>03/30/2019 22:04:54</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/banner-7.jpg">
-      <publishTime>03/30/2019 22:04:28</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/banner-9.jpg">
-      <publishTime>03/30/2019 22:04:28</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/blog/1.jpg">
-      <publishTime>03/30/2019 23:00:56</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/blog/2.jpg">
-      <publishTime>03/30/2019 23:00:58</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/blog/3.jpg">
-      <publishTime>03/30/2019 23:00:58</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/can-1.png">
-      <publishTime>03/30/2019 22:04:26</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/can-2.png">
-      <publishTime>03/30/2019 22:04:26</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/can-3.png">
-      <publishTime>03/30/2019 22:04:28</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/can-4.png">
-      <publishTime>03/30/2019 22:04:28</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/can-5.jpg">
-      <publishTime>03/30/2019 22:04:32</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/can-5.png">
-      <publishTime>03/30/2019 22:04:32</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/client-1.jpg">
-      <publishTime>03/30/2019 22:04:40</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/client-2.jpg">
-      <publishTime>03/30/2019 22:04:44</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/client-3.jpg">
-      <publishTime>03/30/2019 22:04:48</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/client-4.jpg">
-      <publishTime>03/30/2019 22:04:50</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/client-5.jpg">
-      <publishTime>03/30/2019 22:05:04</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/com-1.jpg">
-      <publishTime>03/30/2019 22:04:42</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/com-2.jpg">
-      <publishTime>03/30/2019 22:04:50</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/com-3.jpg">
-      <publishTime>03/30/2019 22:04:54</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/com-4.jpg">
-      <publishTime>03/30/2019 22:04:54</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/com-5.jpg">
-      <publishTime>03/30/2019 22:04:56</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/com-6.jpg">
-      <publishTime>03/30/2019 22:04:58</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/com-7.jpg">
-      <publishTime>03/30/2019 22:05:00</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/debit.png">
-      <publishTime>03/30/2019 22:05:06</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/footer-logo.png">
-      <publishTime>03/30/2019 22:05:06</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/gallery1.jpg">
-      <publishTime>03/30/2019 22:05:06</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/gallery2.jpg">
-      <publishTime>03/30/2019 22:05:06</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/gallery3.jpg">
-      <publishTime>03/30/2019 22:05:06</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/gb.svg">
-      <publishTime>03/30/2019 22:05:06</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/gtrr.jpg">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/img-home-dark.png">
-      <publishTime>03/30/2019 22:05:06</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/img-home.png">
-      <publishTime>03/30/2019 22:05:06</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/iphone.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/logo-white.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/logo.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/microsoft-home-dark.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/microsoft-home.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/mothercare-home.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/paypal-home-dark.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/paypal-home.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/serv-home-dark.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/serv-home.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/simple-banner.jpg">
-      <publishTime>03/30/2019 22:05:10</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/step-1.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/step-2.png">
-      <publishTime>03/30/2019 22:05:08</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/step-3.png">
-      <publishTime>03/30/2019 22:05:10</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/wp-iphone.png">
-      <publishTime>03/30/2019 22:05:10</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/xerox-home-dark.png">
-      <publishTime>03/30/2019 22:05:10</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/xerox-home.png">
-      <publishTime>03/30/2019 22:05:10</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/yahoo-home-dark.png">
-      <publishTime>03/30/2019 22:05:10</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/img/yahoo-home.png">
-      <publishTime>03/30/2019 22:05:10</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/js/custom.js">
-      <publishTime>03/30/2019 22:05:14</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/js/jQuery.style.switcher.js">
-      <publishTime>03/30/2019 22:05:14</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/et-line.eot">
-      <publishTime>03/30/2019 23:34:54</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/et-line.svg">
-      <publishTime>03/30/2019 23:34:54</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/et-line.ttf">
-      <publishTime>03/30/2019 23:34:54</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/et-line.woff">
-      <publishTime>03/30/2019 23:34:54</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/et-lined41d.eot">
-      <publishTime>03/30/2019 23:34:56</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/fontawesome-webfont9efe.eot">
-      <publishTime>03/30/2019 23:34:56</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/fontawesome-webfont9efe.svg">
-      <publishTime>03/30/2019 23:34:56</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/fontawesome-webfont9efe.ttf">
-      <publishTime>03/30/2019 23:34:56</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/fontawesome-webfont9efe.woff2">
-      <publishTime>03/30/2019 23:34:56</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/fonts/fontawesome-webfontd41d.eot">
-      <publishTime>03/30/2019 23:34:58</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/plugins.css">
-      <publishTime>03/30/2019 23:01:00</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/src/datedropper.eot">
-      <publishTime>03/30/2019 23:34:58</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/src/datedropper.svg">
-      <publishTime>03/30/2019 23:34:58</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/src/datedropper.ttf">
-      <publishTime>03/30/2019 23:34:58</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/src/datedropper.woff">
-      <publishTime>03/30/2019 23:34:58</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/css/src/datedropperd41d.eot">
-      <publishTime>03/30/2019 23:35:00</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/bootsnav.js">
-      <publishTime>03/30/2019 23:01:00</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/bootstrap-wysihtml5.js">
-      <publishTime>03/30/2019 23:01:00</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/bootstrap.min.js">
-      <publishTime>03/30/2019 23:01:00</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/datedropper.min.js">
-      <publishTime>03/30/2019 23:01:00</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/dropzone.js">
-      <publishTime>03/30/2019 23:01:02</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/gmap3.min.js">
-      <publishTime>03/30/2019 23:01:02</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/jquery.easy-autocomplete.min.js">
-      <publishTime>03/30/2019 23:01:02</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/jquery.min.js">
-      <publishTime>03/30/2019 23:01:02</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/loader.js">
-      <publishTime>03/30/2019 23:01:02</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/owl.carousel.min.js">
-      <publishTime>03/30/2019 23:01:02</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/select2.min.js">
-      <publishTime>03/30/2019 23:01:02</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/slick.min.js">
-      <publishTime>03/30/2019 23:01:02</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/viewportchecker.js">
-      <publishTime>03/30/2019 23:01:02</publishTime>
-    </File>
-    <File Include="Content/JobPortal/assets/plugins/js/wysihtml5-0.3.0.js">
-      <publishTime>03/30/2019 23:01:04</publishTime>
-    </File>
     <File Include="Content/main/main.css">
       <publishTime>01/18/2021 11:45:28</publishTime>
     </File>
     <File Include="Content/main/main.min.css">
       <publishTime>01/11/2021 11:48:25</publishTime>
+    </File>
+    <File Include="Content/PagedList.css">
+      <publishTime>02/01/2021 09:12:55</publishTime>
     </File>
     <File Include="Content/SmartAdmin/ajax/demowidget.php">
       <publishTime>12/10/2017 17:01:02</publishTime>
@@ -4400,16 +4133,19 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/31/2021 10:26:13</publishTime>
     </File>
     <File Include="Views/Candidate/CandidateDetail.cshtml">
-      <publishTime>01/31/2021 12:08:49</publishTime>
+      <publishTime>03/17/2021 10:18:56</publishTime>
+    </File>
+    <File Include="Views/Candidate/SearchCandidate.cshtml">
+      <publishTime>03/16/2021 11:55:35</publishTime>
     </File>
     <File Include="Views/Company/CompanyDetail.cshtml">
       <publishTime>01/27/2021 10:18:54</publishTime>
     </File>
     <File Include="Views/Dashboard/Index.cshtml">
-      <publishTime>01/31/2021 11:48:27</publishTime>
+      <publishTime>03/16/2021 11:08:19</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>01/31/2021 12:59:04</publishTime>
+      <publishTime>03/17/2021 10:32:43</publishTime>
     </File>
     <File Include="Views/Home/signin.cshtml">
       <publishTime>01/31/2021 09:51:26</publishTime>
@@ -4421,7 +4157,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/31/2021 09:46:30</publishTime>
     </File>
     <File Include="Views/Profile/UpdateProfile.cshtml">
-      <publishTime>01/31/2021 12:56:22</publishTime>
+      <publishTime>03/16/2021 12:08:26</publishTime>
     </File>
     <File Include="Views/Shared/Admin/_AdminLayout.cshtml">
       <publishTime>01/27/2021 17:09:48</publishTime>
@@ -4436,7 +4172,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/22/2021 17:56:16</publishTime>
     </File>
     <File Include="Views/Shared/Admin/_HeaderJet.cshtml">
-      <publishTime>01/31/2021 13:06:22</publishTime>
+      <publishTime>03/17/2021 10:17:28</publishTime>
     </File>
     <File Include="Views/Shared/Admin/_ReportLayout.cshtml">
       <publishTime>01/18/2021 11:18:48</publishTime>
@@ -4457,7 +4193,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/23/2021 14:16:24</publishTime>
     </File>
     <File Include="Views/Shared/Candidate/_HeaderJet.cshtml">
-      <publishTime>01/31/2021 13:06:14</publishTime>
+      <publishTime>03/17/2021 10:10:39</publishTime>
     </File>
     <File Include="Views/Shared/Candidate/_ReportLayout.cshtml">
       <publishTime>01/23/2021 14:17:02</publishTime>
@@ -4478,7 +4214,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/23/2021 14:21:26</publishTime>
     </File>
     <File Include="Views/Shared/Employer/_HeaderJet.cshtml">
-      <publishTime>01/31/2021 13:06:02</publishTime>
+      <publishTime>03/17/2021 10:04:27</publishTime>
     </File>
     <File Include="Views/Shared/Employer/_ReportLayout.cshtml">
       <publishTime>01/23/2021 14:21:26</publishTime>
@@ -4511,7 +4247,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/18/2021 11:18:48</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>01/31/2021 09:50:49</publishTime>
+      <publishTime>03/16/2021 10:58:37</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutNoHead.cshtml">
       <publishTime>01/27/2021 13:57:34</publishTime>
@@ -4526,7 +4262,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>01/18/2021 11:18:48</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/27/2021 16:14:14</publishTime>
+      <publishTime>03/16/2021 14:15:56</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -26,3 +26,17 @@ C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Release\HCMSSMI.Enti
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Release\HCMSSMI.Entities.csproj.CopyComplete
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Release\HCMSSMI.Entities.dll
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Entities\obj\Release\HCMSSMI.Entities.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Release\HCMSSMI.Entities.dll.config
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Release\HCMSSMI.Entities.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Release\HCMSSMI.Entities.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Release\Newtonsoft.Json.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Release\System.Buffers.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Release\System.Memory.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Release\System.Numerics.Vectors.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Release\System.ValueTuple.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Release\System.ValueTuple.xml
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Release\HCMSSMI.Entities.csprojAssemblyReference.cache
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Release\HCMSSMI.Entities.csproj.CoreCompileInputs.cache
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Release\HCMSSMI.Entities.csproj.CopyComplete
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Release\HCMSSMI.Entities.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Release\HCMSSMI.Entities.pdb
