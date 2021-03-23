@@ -24,3 +24,16 @@ C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Extensions\obj\Release\HCMSSMI.Ex
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Extensions\obj\Release\HCMSSMI.Extensions.csproj.CopyComplete
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Extensions\obj\Release\HCMSSMI.Extensions.dll
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI.Extensions\obj\Release\HCMSSMI.Extensions.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\bin\Release\HCMSSMI.Extensions.dll.config
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\bin\Release\HCMSSMI.Extensions.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\bin\Release\HCMSSMI.Extensions.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\bin\Release\HCMSSMI.Entities.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\bin\Release\Newtonsoft.Json.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\bin\Release\HCMSSMI.Entities.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\bin\Release\HCMSSMI.Entities.dll.config
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\bin\Release\Newtonsoft.Json.xml
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\obj\Release\HCMSSMI.Extensions.csprojAssemblyReference.cache
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\obj\Release\HCMSSMI.Extensions.csproj.CoreCompileInputs.cache
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\obj\Release\HCMSSMI.Extensions.csproj.CopyComplete
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\obj\Release\HCMSSMI.Extensions.dll
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Extensions\obj\Release\HCMSSMI.Extensions.pdb

@@ -71,6 +71,8 @@
     <Compile Include="Models\ICD.cs" />
     <Compile Include="Models\Login\Roles.cs" />
     <Compile Include="Models\Login\Users.cs" />
+    <Compile Include="Models\Profile\Address\Address.cs" />
+    <Compile Include="Models\Profile\Address\SearchAddress.cs" />
     <Compile Include="Models\Profile\Helper\ProfessionProfile.cs" />
     <Compile Include="Models\Profile\Helper\SetYourProfile.cs" />
     <Compile Include="Models\Profile\Helper\JabatanProfile.cs" />
@@ -80,6 +82,8 @@
     <Compile Include="Models\Profile\Helper\TypeProfile.cs" />
     <Compile Include="Models\Profile\Profile.cs" />
     <Compile Include="Models\Profile\ResponseProfile.cs" />
+    <Compile Include="Models\Profile\Sector\SearchSector.cs" />
+    <Compile Include="Models\Profile\Sector\Sector.cs" />
     <Compile Include="Models\RestRequest\EnrollmentLogInfo.cs" />
     <Compile Include="Models\RestRequest\SearchBatchClaimAnalystRequest.cs" />
     <Compile Include="Models\RestRequest\ResponseAPI.cs" />

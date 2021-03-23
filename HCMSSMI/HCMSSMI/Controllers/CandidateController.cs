@@ -209,7 +209,6 @@ namespace HCMSSMI.Controllers
 
 
 
-          
             var loginUser = userName;
             ViewBag.UserLogin = loginUser;
 
@@ -228,65 +227,74 @@ namespace HCMSSMI.Controllers
                 var role = fetchingProfileList.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
                 ViewBag.roleID = role;
 
-                //formatRight Createdate kanan
-                var CreateDateRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.CreateDate == x.CreateDate)?.CreateDate;
-                var CreateDateRightTemp = CreateDateRightLabel.Substring(0, 10);
-                //var time = DateTime.Now.ToString("hh:mm:ss");
-                string formatCreateDate = "yyyy-MM-dd";
-                CultureInfo CultureCreateDate = CultureInfo.InvariantCulture;
-                var CreateDateRight = DateTime.ParseExact(CreateDateRightTemp, formatCreateDate, CultureCreateDate);
-
-                var CreateDateFinalRight = Convert.ToDateTime(CreateDateRight).ToString("dd MMMM yyyy");
-                ViewBag.CreateDateLabel = CreateDateFinalRight;
-
-                //formatRight tanggal kanan
-                var DOBRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.DOB == x.DOB)?.DOB;
-                var DOBRightTemp = DOBRightLabel.Substring(0, 10);
-                //var time = DateTime.Now.ToString("hh:mm:ss");
-                string formatRight = "yyyy-MM-dd";
-                CultureInfo CultureDOBRight = CultureInfo.InvariantCulture;
-                var dateRight = DateTime.ParseExact(DOBRightTemp, formatRight, CultureDOBRight);
-
-                var dateFinalRight = Convert.ToDateTime(dateRight).ToString("dd MMMM yyyy");
-                ViewBag.DOBLabel = dateFinalRight;
-
-                foreach (var itemValue in fetchingProfileList.Data)
+                if(role != "4")
                 {
-                    var DOBTemp = itemValue.DOB.Substring(0, 10);
+                    return RedirectToAction("signin", "Home");
+
+                } else
+                {
+                    //formatRight Createdate kanan
+                    var CreateDateRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.CreateDate == x.CreateDate)?.CreateDate;
+                    var CreateDateRightTemp = CreateDateRightLabel.Substring(0, 10);
                     //var time = DateTime.Now.ToString("hh:mm:ss");
-                    string format = "yyyy-MM-dd";
-                    CultureInfo provider = CultureInfo.InvariantCulture;
-                    var date = DateTime.ParseExact(DOBTemp, format, provider);
+                    string formatCreateDate = "yyyy-MM-dd";
+                    CultureInfo CultureCreateDate = CultureInfo.InvariantCulture;
+                    var CreateDateRight = DateTime.ParseExact(CreateDateRightTemp, formatCreateDate, CultureCreateDate);
 
-                    var dateFinal = Convert.ToDateTime(date).ToString("MM/dd/yyyyThh:mm:ss.549Z").Substring(0, 10);
+                    var CreateDateFinalRight = Convert.ToDateTime(CreateDateRight).ToString("dd MMMM yyyy");
+                    ViewBag.CreateDateLabel = CreateDateFinalRight;
 
+                    //formatRight tanggal kanan
+                    var DOBRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.DOB == x.DOB)?.DOB;
+                    var DOBRightTemp = DOBRightLabel.Substring(0, 10);
+                    //var time = DateTime.Now.ToString("hh:mm:ss");
+                    string formatRight = "yyyy-MM-dd";
+                    CultureInfo CultureDOBRight = CultureInfo.InvariantCulture;
+                    var dateRight = DateTime.ParseExact(DOBRightTemp, formatRight, CultureDOBRight);
 
+                    var dateFinalRight = Convert.ToDateTime(dateRight).ToString("dd MMMM yyyy");
+                    ViewBag.DOBLabel = dateFinalRight;
 
-                    model = new Profile()
+                    foreach (var itemValue in fetchingProfileList.Data)
                     {
-                        ProfileID = itemValue.ProfileID,
-                        Email = itemValue.Email,
-                        FullName = itemValue.FullName,
-                        Username = itemValue.Username,
-                        StatusVerify = itemValue.StatusVerify,
-                        Profession = itemValue.Profession,
-                        DOB = dateFinal,
-                        Gender = itemValue.Gender,
-                        Phone = itemValue.Phone,
-                        CoverImage = itemValue.CoverImage,
-                        Experience = itemValue.Experience,
-                        ProfileImage = itemValue.ProfileImage,
-                        Jabatan = itemValue.Jabatan,
-                        Qualification = itemValue.Qualification,
-                        Type = itemValue.Type,
-                        SalaryRange = itemValue.SalaryRange,
-                        Setyourprofile = itemValue.Setyourprofile,
-                        AboutSelf = itemValue.AboutSelf,
-                        IsActive = itemValue.IsActive,
-                    };
+                        var DOBTemp = itemValue.DOB.Substring(0, 10);
+                        //var time = DateTime.Now.ToString("hh:mm:ss");
+                        string format = "yyyy-MM-dd";
+                        CultureInfo provider = CultureInfo.InvariantCulture;
+                        var date = DateTime.ParseExact(DOBTemp, format, provider);
+
+                        var dateFinal = Convert.ToDateTime(date).ToString("MM/dd/yyyyThh:mm:ss.549Z").Substring(0, 10);
+
+
+
+                        model = new Profile()
+                        {
+                            ProfileID = itemValue.ProfileID,
+                            Email = itemValue.Email,
+                            FullName = itemValue.FullName,
+                            Username = itemValue.Username,
+                            StatusVerify = itemValue.StatusVerify,
+                            Profession = itemValue.Profession,
+                            DOB = dateFinal,
+                            Gender = itemValue.Gender,
+                            Phone = itemValue.Phone,
+                            CoverImage = itemValue.CoverImage,
+                            Experience = itemValue.Experience,
+                            ProfileImage = itemValue.ProfileImage,
+                            Jabatan = itemValue.Jabatan,
+                            Qualification = itemValue.Qualification,
+                            Type = itemValue.Type,
+                            SalaryRange = itemValue.SalaryRange,
+                            Setyourprofile = itemValue.Setyourprofile,
+                            AboutSelf = itemValue.AboutSelf,
+                            IsActive = itemValue.IsActive,
+                        };
+                    }
+
+                    return View(model);
                 }
 
-                return View(model);
+              
             }
             else
             {
