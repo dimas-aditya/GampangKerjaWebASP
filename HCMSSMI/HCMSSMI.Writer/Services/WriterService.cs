@@ -152,6 +152,10 @@ namespace HCMSSMI.Writer
                     Setyourprofile = profile.Setyourprofile,
                     AboutSelf = profile.AboutSelf,
                     JobTitle = profile.JobTitle,
+                    SectorID = profile.SectorID,
+                    AddID = profile.AddID,
+                    PostalCode = profile.PostalCode,
+                    FullAddress = profile.FullAddress,
                     IsActive = profile.IsActive,
                     CreateDate = "0001-01-01T00:00:00",
 

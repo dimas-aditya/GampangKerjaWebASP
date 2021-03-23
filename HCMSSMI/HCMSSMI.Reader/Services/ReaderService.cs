@@ -14,6 +14,8 @@ using HCMSSMI.Utils;
 using HCMSSMI.Entities.Models.Profile;
 using RestSharp.Serialization.Json;
 using HCMSSMI.Entities.Models.Candidate;
+using HCMSSMI.Entities.Models.Profile.Address;
+using HCMSSMI.Entities.Models.Profile.Sector;
 
 namespace HCMSSMI.Reader
 {
@@ -169,6 +171,66 @@ namespace HCMSSMI.Reader
 
 
             return user;
+        }
+
+        public async Task<IEnumerable<Address>> SearchAddress(SearchAddress Searchaddress, string clientKey = null, string apiKey = null)
+        {
+            List<Address> AddressList = new List<Address>();
+
+            try
+            {
+                configuration.ClientURL = @ServerApi.URL_AuthGateway;
+
+
+                if ((!string.IsNullOrEmpty(clientKey) && !string.IsNullOrEmpty(apiKey)))
+                    configuration.Client.Authenticator = new HttpBasicAuthenticator(clientKey, apiKey);
+
+                configuration.RequestURL = $"SearchAddress";
+                configuration.Client = new RestClient($"{configuration.ClientURL}");
+                configuration.Request = new RestRequest($"{configuration.RequestURL}", Method.POST, DataFormat.Json);
+                configuration.Request.AddJsonBody(Searchaddress);
+
+                var response = configuration.Client.Execute<List<Address>>(configuration.Request);
+
+                return response.Data;
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"An error occured when request to API: {ex.Message}");
+            }
+
+            return await Task.FromResult(AddressList);
+        }
+
+        public async Task<IEnumerable<Sector>> SearchSector(SearchSector searchSector, string clientKey = null, string apiKey = null)
+        {
+            List<Sector> AddressList = new List<Sector>();
+
+            try
+            {
+                configuration.ClientURL = @ServerApi.URL_AuthGateway;
+
+
+                if ((!string.IsNullOrEmpty(clientKey) && !string.IsNullOrEmpty(apiKey)))
+                    configuration.Client.Authenticator = new HttpBasicAuthenticator(clientKey, apiKey);
+
+                configuration.RequestURL = $"SearchSector";
+                configuration.Client = new RestClient($"{configuration.ClientURL}");
+                configuration.Request = new RestRequest($"{configuration.RequestURL}", Method.POST, DataFormat.Json);
+                configuration.Request.AddJsonBody(searchSector);
+
+                var response = configuration.Client.Execute<List<Sector>>(configuration.Request);
+
+                return response.Data;
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"An error occured when request to API: {ex.Message}");
+            }
+
+            return await Task.FromResult(AddressList);
         }
 
         #endregion

@@ -28,6 +28,10 @@ namespace HCMSSMI.Entities.Models.Profile
         public string Setyourprofile { get; set; }
         public string AboutSelf { get; set; }
         public string JobTitle { get; set; }
+        public string SectorID { get; set; }
+        public string AddID { get; set; }
+        public string PostalCode { get; set; }
+        public string FullAddress { get; set; }
         public string CreateDate { get; set; }
         public string IsActive { get; set; }
     }

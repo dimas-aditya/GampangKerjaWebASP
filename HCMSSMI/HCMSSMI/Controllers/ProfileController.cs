@@ -1,6 +1,8 @@
 ﻿using HCMSSMI.Entities.Models.Login;
 using HCMSSMI.Entities.Models.Profile;
+using HCMSSMI.Entities.Models.Profile.Address;
 using HCMSSMI.Entities.Models.Profile.Helper;
+using HCMSSMI.Entities.Models.Profile.Sector;
 using HCMSSMI.Reader;
 using HCMSSMI.ViewModels;
 using HCMSSMI.Writer;
@@ -74,8 +76,7 @@ namespace HCMSSMI.Controllers
             var fetchingProfileList = await reader.SearchProfileIndex(userName);
 
 
-        
-
+         
             if (userName != null)
             {
               
@@ -176,8 +177,28 @@ namespace HCMSSMI.Controllers
                 List<ProfessionProfile> listProfession = InfoProfession.ToList();
                 ViewBag.ProfessionList = listProfession;
 
+                var item = new SearchAddress()
+                {
+                    City = null,
+                    Country = null,
+                    Provinsi = null
+                };
 
-              
+
+                var AddressResult = await reader.SearchAddress(item);
+                ViewBag.AddressList = AddressResult;
+
+
+                var itemSector = new SearchSector()
+                {
+                    SectorName = null
+
+                };
+
+                var SectorResult = await reader.SearchSector(itemSector);
+                ViewBag.SectorList = SectorResult;
+
+
 
                 //setting label kanan 
                 var FullNameRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.FullName == x.FullName)?.FullName;
@@ -243,6 +264,10 @@ namespace HCMSSMI.Controllers
                         Setyourprofile = itemValue.Setyourprofile,
                         AboutSelf = itemValue.AboutSelf,
                         JobTitle = itemValue.JobTitle,
+                        SectorID = itemValue.SectorID,
+                        AddID = itemValue.AddID,
+                        PostalCode = itemValue.PostalCode,
+                        FullAddress = itemValue.FullAddress,
                         IsActive = itemValue.IsActive,
                     };
                 }
@@ -307,6 +332,10 @@ namespace HCMSSMI.Controllers
                 Setyourprofile = profile.Setyourprofile,
                 AboutSelf = profile.AboutSelf,
                 JobTitle = profile.JobTitle,
+                SectorID = profile.SectorID,
+                AddID = profile.AddID,
+                PostalCode = profile.PostalCode,
+                FullAddress = profile.FullAddress,
                 IsActive = profile.IsActive,
             };
 
@@ -437,6 +466,27 @@ namespace HCMSSMI.Controllers
                 };
             List<ProfessionProfile> listProfession = InfoProfession.ToList();
             ViewBag.ProfessionList = listProfession;
+
+
+            var itemAdd = new SearchAddress()
+            {
+                City = null,
+                Country = null,
+                Provinsi = null
+            };
+
+
+            var AddressResult = await reader.SearchAddress(itemAdd);
+            ViewBag.AddressList = AddressResult;
+
+            var itemSector = new SearchSector()
+            {
+                SectorName = null
+
+            };
+
+            var SectorResult = await reader.SearchSector(itemSector);
+            ViewBag.SectorList = SectorResult;
 
             //setting label kanan 
             var FullNameRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.FullName == x.FullName)?.FullName;

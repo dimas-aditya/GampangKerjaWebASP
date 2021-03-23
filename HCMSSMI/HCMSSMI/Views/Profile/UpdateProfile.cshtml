@@ -61,15 +61,16 @@
 
     <div class="row">
         <div class="col-xl-8">
-            <div class="card">
-                <div class="card-header">
-                    <h4><b>Personal Information</b></h4>
-                </div>
-                <div class="card-body">
-                    <div class="col-lg-12">
-                        @using (Html.BeginForm("UpdateProfile", "Profile", FormMethod.Post, new { @class = "col-md-12 required-form", @enctype = "multipart/form-data" }))
-                        {
-                            @Html.AntiForgeryToken()
+            @using (Html.BeginForm("UpdateProfile", "Profile", FormMethod.Post, new { @class = "col-md-12 required-form", @enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="card">
+                    <div class="card-header">
+                        <h4><b>Personal Information</b></h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="col-lg-12">
+
                             <div class="container">
                                 <div class="row">
                                     <div class="col">
@@ -90,9 +91,9 @@
                                             <label class="k-label col-md-12" for="Gender">Gender</label>
                                             <div class="col-md-12">
                                                 @*<select class="form-control" id="exampleFormControlSelect1">
-                   <option>Laki-Laki</option>
-                   <option>Wanita</option>
-                </select>*@
+                                               <option>Laki-Laki</option>
+                                               <option>Wanita</option>
+                                            </select>*@
                                                 @Html.DropDownListFor(model => model.Gender, new SelectList(ViewBag.GenderList, "Gender", "NameGender"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
 
                                             </div>
@@ -110,10 +111,10 @@
                                             <label class="k-label col-md-12" for="Experience">Experience</label>
                                             <div class="col-md-12">
                                                 @*<select class="form-control" id="exampleFormControlSelect2">
-                    <option>Fresh</option>
-                    <option>1 Tahun</option>
-                    <option>2 Tahun</option>
-                </select>*@
+                                                <option>Fresh</option>
+                                                <option>1 Tahun</option>
+                                                <option>2 Tahun</option>
+                                            </select>*@
                                                 @Html.DropDownListFor(model => model.Experience, new SelectList(ViewBag.ExpList, "Experience", "NameExperience"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
 
 
@@ -123,13 +124,13 @@
                                             <label class="k-label col-md-12" for="Experience">Qualification</label>
                                             <div class="col-md-12">
                                                 @*<select class="form-control" id="exampleFormControlSelect2">
-                    <option>SMK/SMA</option>
-                    <option>Diploma 1</option>
-                    <option>Diploma 2</option>
-                    <option>Diploma 3</option>
-                    <option>Sarjana 1</option>
-                    <option>Sarjana 2</option>
-                </select>*@
+                                                <option>SMK/SMA</option>
+                                                <option>Diploma 1</option>
+                                                <option>Diploma 2</option>
+                                                <option>Diploma 3</option>
+                                                <option>Sarjana 1</option>
+                                                <option>Sarjana 2</option>
+                                            </select>*@
                                                 @Html.DropDownListFor(model => model.Qualification, new SelectList(ViewBag.QualificationList, "Qualification", "NameQualification"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
 
                                             </div>
@@ -210,8 +211,15 @@
                                                 @Html.TextBoxFor(model => model.SalaryRange, new { @class = "form-control" })
                                             </div>
                                         </div>
+                                        <div class="form-group">
+                                            <label class="k-label col-md-12" for="Type">Sector</label>
+                                            <div class="col-md-12">
+                                              
+                                                @Html.DropDownListFor(model => model.SectorID, new SelectList(ViewBag.SectorList, "SectorID", "SectorName"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+                                            </div>
+                                        </div>
 
-                                      
+
                                     </div>
                                 </div>
                             </div>
@@ -220,61 +228,103 @@
                                 @* <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>*@
                                 @Html.TextAreaFor(model => model.AboutSelf, new { @class = "form-control" })
                             </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h4><b>Address/Location</b></h4>
+                    </div>
+
+                    <div class="card-body">
+                        <div class="col-lg-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label class="k-label col-md-12" for="Experience">State</label>
+                                            <div class="col-md-12">
+                                             
+                                                @Html.DropDownListFor(model => model.AddID, new SelectList(ViewBag.AddressList, "AddID", "City"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="k-label col-md-12" for="Email">Full Address</label>
+                                            <div class="col-md-12">
+                                                @Html.TextAreaFor(model => model.FullAddress, new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label class="k-label col-md-12" for="Phone">Postal Code</label>
+                                            <div class="col-md-12">
+                                                @Html.TextBoxFor(model => model.PostalCode, new { @class = "form-control" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="form-group mt-4">
 
                                 <div class="col-md-4">
                                     <button type="submit" class="btn btn-warning k-button-expand"><i class="mdi mdi-check-box-outline"></i> Save Changes </button>
                                 </div>
-                            </div>}
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        @*menu right*@
-        <div class="col-xl-4">
-            <div class="card">
-
-                <div class="card-body">
-                    <div class="col-lg-12">
-                        <div class="contact-box">
-                            <div class="contact-img">
-                                <img src="https://jobs.nokriwp.com/demo-3/wp-content/uploads/sites/9/2018/09/careerslogo_EFX-100x100.jpg" id="candidate_dp" class="img-responsive img-circle" alt="candidate profile image">
                             </div>
-                            <div class="contact-caption">
-
-                                <h4>@ViewBag.FullNameLabel</h4>
-                                <span>@ViewBag.ProfessionLabel</span>
-                            </div>
-                            <ul class="social-links list-inline">
-                            </ul>
-                            <div class="progress-bar-section">
-                                <div class="progress">
-                                    <div class="progress-bar"> <span data-percent="95" class="profile95" style="transition: width 3s ease 0s; width: 95%;"></span> </div>
-                                </div>
-                                <div class="progress-bar-title">
-                                    <h5>Profile Percent</h5>
-                                    <span class="progress-percentage">95%</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <ul>
-                                <li> <i class="ti-calendar"></i>Date of Birth: <strong>@ViewBag.DOBLabel</strong></li>
-                                <li> <i class="ti-mobile"></i>@ViewBag.PhoneLabel</li>
-                                <li> <i class="ti-email"></i>@ViewBag.EmailLabel</li>
-                                <li> <i class="ti-location-arrow"></i>@ViewBag.JobTitleLabel</li>
-                            </ul>
                         </div>
                     </div>
                 </div>
-            </div>
+            }
+
         </div>
-        @*end right*@
-    </div>
+            @*menu right*@
+            <div class="col-xl-4">
+                <div class="card">
+
+                    <div class="card-body">
+                        <div class="col-lg-12">
+                            <div class="contact-box">
+                                <div class="contact-img">
+                                    <img src="https://jobs.nokriwp.com/demo-3/wp-content/uploads/sites/9/2018/09/careerslogo_EFX-100x100.jpg" id="candidate_dp" class="img-responsive img-circle" alt="candidate profile image">
+                                </div>
+                                <div class="contact-caption">
+
+                                    <h4>@ViewBag.FullNameLabel</h4>
+                                    <span>@ViewBag.ProfessionLabel</span>
+                                </div>
+                                <ul class="social-links list-inline">
+                                </ul>
+                                <div class="progress-bar-section">
+                                    <div class="progress">
+                                        <div class="progress-bar"> <span data-percent="95" class="profile95" style="transition: width 3s ease 0s; width: 95%;"></span> </div>
+                                    </div>
+                                    <div class="progress-bar-title">
+                                        <h5>Profile Percent</h5>
+                                        <span class="progress-percentage">95%</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <ul>
+                                    <li> <i class="ti-calendar"></i>Date of Birth: <strong>@ViewBag.DOBLabel</strong></li>
+                                    <li> <i class="ti-mobile"></i>@ViewBag.PhoneLabel</li>
+                                    <li> <i class="ti-email"></i>@ViewBag.EmailLabel</li>
+                                    <li> <i class="ti-location-arrow"></i>@ViewBag.JobTitleLabel</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @*end right*@
+        </div>
 
 
-   
+
+
 </body>
 
 @{ bool isAlertResponse = ViewBag.IsAlertResponse;
