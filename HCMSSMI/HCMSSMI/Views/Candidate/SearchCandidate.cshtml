@@ -1118,6 +1118,11 @@
     });
 
     $(document).ready(function () {
+        $('#TypeShow').val('');
+        $('#GenderShow').val('');
+        }); 
+
+    $(document).ready(function () {
         $('#cb-kontrak').change(function () {
             if ($(this).is(':checked')) {
                 $('#TypeShow').val('Kontrak');
