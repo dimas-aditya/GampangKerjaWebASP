@@ -118,7 +118,7 @@
                                 </div>
                                 <div class="common-sidebar-widget sidebar-two">
                                     <h2 class="sidebar-title">Type</h2>
-                                    <div class="form-group" style="display:normal">
+                                    <div class="form-group" style="display:none">
                                         @Html.TextBoxFor(model => model.Type, new { @id = "TypeShow", @class = "form-control", @placeholder = "Search Type.." })
                                     </div>
                                         <ul class="sidebar-cbx-list">
@@ -1116,6 +1116,11 @@
             "lengthMenu": [[5, 10, 25, 50, -1], [10, 25, 50, "All"]]
         });
     });
+
+    $(document).ready(function () {
+        $('#TypeShow').val('');
+        $('#GenderShow').val('');
+        }); 
 
     $(document).ready(function () {
         $('#cb-kontrak').change(function () {

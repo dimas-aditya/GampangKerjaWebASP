@@ -51,12 +51,12 @@
                                     <li><a href="@Url.Action("UpdateProfile","Profile")">Update Profile</a></li>
                                     <li>  <a href="/Candidate/CandidateDetail?nama=">View Profile</a></li>
                                     @*<li>
-                                        <a href="job-details.html">Job Detail <small class="icon-arrow"></small></a>
-                                        <ul class="sub-menu">
-                                            <li><a href="job-details.html">Job Detail V1</a></li>
-                                            <li><a href="job-details-two.html">Job Detail V2</a></li>
-                                        </ul>
-                                    </li>*@
+                    <a href="job-details.html">Job Detail <small class="icon-arrow"></small></a>
+                    <ul class="sub-menu">
+                        <li><a href="job-details.html">Job Detail V1</a></li>
+                        <li><a href="job-details-two.html">Job Detail V2</a></li>
+                    </ul>
+                </li>*@
                                 </ul>
                             </li>
                             <li>
@@ -79,7 +79,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Pages <small class="icon-arrow"></small></a>
+                                <a href="#">Pagess <small class="icon-arrow"></small></a>
                                 <ul class="sub-menu">
                                     <li><a href="about.html">About us</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>
@@ -99,6 +99,7 @@
                                     </li>
                                 </ul>
                             </li>
+                           
                         </ul>
                     </nav>
                 </div>
@@ -257,6 +258,12 @@
                         <li><a href="404.html"><span>404 Error</span></a></li>
                     </ul>
                     <!-- End Dropdown Menu -->
+                </li>
+                <li>
+                    <a href="@Url.Action("Logout","Account")">
+                        <i class="mdi mdi-logout mr-1"></i>
+                        <span>Logout</span>
+                    </a>
                 </li>
             </ul>
         </div>

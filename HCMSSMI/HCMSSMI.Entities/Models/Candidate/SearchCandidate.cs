@@ -14,5 +14,7 @@ namespace HCMSSMI.Entities.Models.Candidate
         public DateTime? CreateDate { get; set; }
         public string Experience { get; set; }
         public string Skills { get; set; }
+        public string AddID { get; set; }
+        public string FullName { get; set; }
     }
 }
