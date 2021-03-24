@@ -526,24 +526,6 @@ namespace HCMSSMI.Controllers
         }
 
 
-        //[HttpGet]
-        //public async Task<ActionResult> Edit(int? id, string clientKey = null, string secretKey = null)
-        //{
-        //    if (id == null)
-        //        throw new ArgumentException($"Parameter ID is undefined");
-
-        //    var benefitItem = await reader.GetBenefitItem(id.Value, clientKey, secretKey);
-
-        //    if (benefitItem == null)
-        //        throw new ArgumentException($"Could not found any specific data on ID {id}");
-
-        //    ViewBag.IsAlertResponse = false;
-        //    ViewBag.ActivityResponsMessage = null;
-
-
-        //    return View(benefitItem);
-        //}
-
 
         #region Private Helper 
 
