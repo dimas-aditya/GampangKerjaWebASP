@@ -106,6 +106,8 @@ namespace HCMSSMI.Controllers
                     Gender = searchCandidate.Gender,
                     CreateDate = searchCandidate.CreateDate,
                     Skills = searchCandidate.Skills,
+                    FullName = searchCandidate.FullName,
+                    AddID = searchCandidate.AddID,
                     Type = searchCandidate.Type
                 };
 
