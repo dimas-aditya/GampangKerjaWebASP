@@ -302,6 +302,10 @@
                                                                             <div class="title-name">
                                                                                 <h3 class="job-title">
                                                                                     <a href="@Url.Action("CandidateDetail","Candidate", new { nama = item.Username })">@item.FullName</a>
+                                                                                    @if (item.StatusVerify == "Verified")
+                                                                                    {
+                                                                                        <i class="fas fa-check-circle"></i>
+                                                                                    }
                                                                                 </h3>
                                                                                 <div class="employer-name">
                                                                                     <span>@item.JobTitle</span>
