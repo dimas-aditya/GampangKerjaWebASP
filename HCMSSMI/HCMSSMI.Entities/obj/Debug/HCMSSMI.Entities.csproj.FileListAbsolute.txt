@@ -99,7 +99,6 @@ E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entiti
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.Numerics.Vectors.dll
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.dll
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\bin\Debug\System.ValueTuple.xml
-E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CoreCompileInputs.cache
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
