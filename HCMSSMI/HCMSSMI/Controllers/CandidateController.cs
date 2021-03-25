@@ -67,121 +67,84 @@ namespace HCMSSMI.Controllers
                 //side menu validasi 
                 role = fetchingProfileList.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
                 ViewBag.roleID = role;
+
+
+                //CreateActionInvoker pagination 
+                ViewBag.CurrentSort = sortOrder;
+                ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+                ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
+
+                if (searchString != null)
+                {
+                    page = 1;
+                }
+                else
+                {
+                    searchString = currentFilter;
+                }
+
+                ViewBag.CurrentFilter = searchString;
+
+
+                var item = new SearchCandidate()
+                {
+                    Username = searchCandidate.Username,
+                    Experience = searchCandidate.Experience,
+                    Gender = searchCandidate.Gender,
+                    CreateDate = searchCandidate.CreateDate,
+                    Skills = searchCandidate.Skills,
+                    FullName = searchCandidate.FullName,
+                    AddID = searchCandidate.AddID,
+                    Type = searchCandidate.Type
+                };
+
+                if (role == "4" || role == "5" || role == "")
+                {
+                    var candidateResult = await reader.SearchCandidatePublic(item);
+
+                    var count = candidateResult.Count();
+                    ViewBag.CountCandidateList = count;
+
+                    int pageSize = 5;
+                    int pageGridSize = 6;
+
+                    int pageNumber = (page ?? 1);
+
+                    var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
+                    ViewBag.CandidateList = PagelistCandidate;
+
+                    ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
+
+
+                    return View();
+                }
+                else
+                {
+                    var candidateResult = await reader.SearchCandidate(item);
+
+                    var count = candidateResult.Count();
+                    ViewBag.CountCandidateList = count;
+
+                    int pageSize = 5;
+                    int pageGridSize = 6;
+
+                    int pageNumber = (page ?? 1);
+
+                    var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
+                    ViewBag.CandidateList = PagelistCandidate;
+
+                    ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
+
+
+                    return View();
+                }
+                //End pagination 
+
             }
             else
             {
-                ViewBag.roleID = "";
+                return RedirectToAction("signin", "Home");
             }
-
-            //CreateActionInvoker pagination 
-            ViewBag.CurrentSort = sortOrder;
-            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
-            ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
-
-            if (searchString != null)
-            {
-                page = 1;
-            }
-            else
-            {
-                searchString = currentFilter;
-            }
-
-            ViewBag.CurrentFilter = searchString;
-
-
-            var item = new SearchCandidate()
-            {
-                Username = searchCandidate.Username,
-                Experience = searchCandidate.Experience,
-                Gender = searchCandidate.Gender,
-                CreateDate = searchCandidate.CreateDate,
-                Skills = searchCandidate.Skills,
-                FullName = searchCandidate.FullName,
-                AddID = searchCandidate.AddID,
-                Type = searchCandidate.Type
-            };
-
-            if (role == "4" || role == "5" || role == "")
-            {
-                var candidateResult = await reader.SearchCandidatePublic(item);
-
-                var count = candidateResult.Count();
-                ViewBag.CountCandidateList = count;
-
-                int pageSize = 5;
-                int pageGridSize = 6;
-
-                int pageNumber = (page ?? 1);
-
-                var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
-                ViewBag.CandidateList = PagelistCandidate;
-
-                ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
-
-
-                return View();
-            }
-            //else if (role == "5")
-            //{
-            //    var candidateResult = await reader.SearchCandidatePublic(item);
-
-            //    var count = candidateResult.Count();
-            //    ViewBag.CountCandidateList = count;
-
-            //    int pageSize = 5;
-            //    int pageGridSize = 6;
-
-            //    int pageNumber = (page ?? 1);
-
-            //    var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
-            //    ViewBag.CandidateList = PagelistCandidate;
-
-            //    ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
-
-
-            //    return View();
-            //} else if (role == "")
-            //{
-            //    var candidateResult = await reader.SearchCandidatePublic(item);
-
-            //    var count = candidateResult.Count();
-            //    ViewBag.CountCandidateList = count;
-
-            //    int pageSize = 5;
-            //    int pageGridSize = 6;
-
-            //    int pageNumber = (page ?? 1);
-
-            //    var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
-            //    ViewBag.CandidateList = PagelistCandidate;
-
-            //    ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
-
-
-            //    return View();
-            //}
-            else
-            {
-                var candidateResult = await reader.SearchCandidate(item);
-
-                var count = candidateResult.Count();
-                ViewBag.CountCandidateList = count;
-
-                int pageSize = 5;
-                int pageGridSize = 6;
-
-                int pageNumber = (page ?? 1);
-
-                var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
-                ViewBag.CandidateList = PagelistCandidate;
-
-                ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
-
-
-                return View();
-            }
-            //End pagination 
 
         }
 
@@ -203,8 +166,8 @@ namespace HCMSSMI.Controllers
 
             var fetchingLoginData = await reader.SearchProfileIndex(userName);
 
-            var RoleLogin = fetchingLoginData.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
-            ViewBag.roleID = RoleLogin;
+
+            
 
             var loginUser = userName;
             ViewBag.UserLogin = loginUser;
@@ -215,14 +178,14 @@ namespace HCMSSMI.Controllers
             }
             if (userName != null)
             {
+                var RoleLogin = fetchingLoginData.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
+                ViewBag.roleID = RoleLogin;
+
                 //var resultBenefit = reader.GetBenefitItem();
                 Profile model = new Profile();
 
                 var fetchingProfileList = await reader.SearchProfileIndex(nama);
 
-                //side menu validasi 
-                var role = fetchingProfileList.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
-              
 
                 //formatRight Createdate kanan
                 var CreateDateRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.CreateDate == x.CreateDate)?.CreateDate;

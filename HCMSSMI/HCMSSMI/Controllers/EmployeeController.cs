@@ -164,8 +164,7 @@ namespace HCMSSMI.Controllers
 
             var fetchingLoginData = await reader.SearchProfileIndex(userName);
 
-            var RoleLogin = fetchingLoginData.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
-            ViewBag.roleID = RoleLogin;
+           
 
             var loginUser = userName;
             ViewBag.UserLogin = loginUser;
@@ -176,13 +175,13 @@ namespace HCMSSMI.Controllers
             }
             if (userName != null)
             {
+                var RoleLogin = fetchingLoginData.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
+                ViewBag.roleID = RoleLogin;
+
                 //var resultBenefit = reader.GetBenefitItem();
                 Profile model = new Profile();
 
                 var fetchingProfileList = await reader.SearchProfileIndex(nama);
-
-                //side menu validasi 
-                var role = fetchingProfileList.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
 
 
                 //formatRight Createdate kanan
@@ -246,14 +245,11 @@ namespace HCMSSMI.Controllers
                 if (RoleLogin != null)
                 {
                     return View(model);
-
                 }
                 else
                 {
                     return RedirectToAction("signin", "Home");
                 }
-
-
             }
             else
             {
