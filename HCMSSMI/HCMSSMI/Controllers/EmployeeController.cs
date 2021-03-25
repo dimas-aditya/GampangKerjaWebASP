@@ -1,7 +1,8 @@
-﻿using HCMSSMI.Entities.Models.Candidate;
+﻿using HCMSSMI.Entities.Models.Employee;
 using HCMSSMI.Entities.Models.Profile;
 using HCMSSMI.Reader;
 using HCMSSMI.Writer;
+using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -11,12 +12,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
-using PagedList;
-using PagedList.Mvc;
 
 namespace HCMSSMI.Controllers
 {
-    public class CandidateController : Controller
+    public class EmployeeController : Controller
     {
 
         #region Private Members
@@ -40,7 +39,7 @@ namespace HCMSSMI.Controllers
         /// </summary>
         /// <param name="reader">A single instance parameter from <see cref="IReaderService"/></param>
         /// <param name="writer">A single instance parameter from <see cref="IWriterService"/></param>
-        public CandidateController(IReaderService reader, IWriterService writer)
+        public EmployeeController(IReaderService reader, IWriterService writer)
         {
             this.reader = reader;
             this.writer = writer;
@@ -48,10 +47,10 @@ namespace HCMSSMI.Controllers
 
         #endregion
 
-        #region Search Candidate
+        #region Search Employee
 
         [HttpGet]
-        public async Task<ActionResult> searchCandidate([Bind] SearchCandidate searchCandidate, string sortOrder, string currentFilter, string searchString, int? page)
+        public async Task<ActionResult> searchEmployee([Bind] SearchEmployee searchEmployee, string sortOrder, string currentFilter, string searchString, int? page)
         {
             ViewBag.IsAlertResponse = false;
             ViewBag.ActivityResponsMessage = null;
@@ -90,21 +89,21 @@ namespace HCMSSMI.Controllers
             ViewBag.CurrentFilter = searchString;
 
 
-            var item = new SearchCandidate()
+            var item = new SearchEmployee()
             {
-                Username = searchCandidate.Username,
-                Experience = searchCandidate.Experience,
-                Gender = searchCandidate.Gender,
-                CreateDate = searchCandidate.CreateDate,
-                Skills = searchCandidate.Skills,
-                FullName = searchCandidate.FullName,
-                AddID = searchCandidate.AddID,
-                Type = searchCandidate.Type
+                Username = searchEmployee.Username,
+                Experience = searchEmployee.Experience,
+                Gender = searchEmployee.Gender,
+                CreateDate = searchEmployee.CreateDate,
+                Skills = searchEmployee.Skills,
+                FullName = searchEmployee.FullName,
+                AddID = searchEmployee.AddID,
+                Type = searchEmployee.Type
             };
 
             if (role == "4" || role == "5" || role == "")
             {
-                var candidateResult = await reader.SearchCandidatePublic(item);
+                var candidateResult = await reader.SearchEmployeePublic(item);
 
                 var count = candidateResult.Count();
                 ViewBag.CountCandidateList = count;
@@ -122,48 +121,10 @@ namespace HCMSSMI.Controllers
 
                 return View();
             }
-            //else if (role == "5")
-            //{
-            //    var candidateResult = await reader.SearchCandidatePublic(item);
-
-            //    var count = candidateResult.Count();
-            //    ViewBag.CountCandidateList = count;
-
-            //    int pageSize = 5;
-            //    int pageGridSize = 6;
-
-            //    int pageNumber = (page ?? 1);
-
-            //    var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
-            //    ViewBag.CandidateList = PagelistCandidate;
-
-            //    ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
-
-
-            //    return View();
-            //} else if (role == "")
-            //{
-            //    var candidateResult = await reader.SearchCandidatePublic(item);
-
-            //    var count = candidateResult.Count();
-            //    ViewBag.CountCandidateList = count;
-
-            //    int pageSize = 5;
-            //    int pageGridSize = 6;
-
-            //    int pageNumber = (page ?? 1);
-
-            //    var PagelistCandidate = candidateResult.ToPagedList(pageNumber, pageSize);
-            //    ViewBag.CandidateList = PagelistCandidate;
-
-            //    ViewBag.CandidateGridList = candidateResult.ToPagedList(pageNumber, pageGridSize);
-
-
-            //    return View();
-            //}
+            
             else
             {
-                var candidateResult = await reader.SearchCandidate(item);
+                var candidateResult = await reader.SearchEmployee(item);
 
                 var count = candidateResult.Count();
                 ViewBag.CountCandidateList = count;
@@ -187,9 +148,9 @@ namespace HCMSSMI.Controllers
 
         #endregion
 
-        // GET: Candidate
+        // GET: Employee
         [HttpGet]
-        public async Task<ActionResult> CandidateDetail(string nama, string clientKey = null, string apiKey = null)
+        public async Task<ActionResult> EmployeeDetail(string nama, string clientKey = null, string apiKey = null)
         {
 
             ViewBag.IsAlertResponse = false;
@@ -222,7 +183,7 @@ namespace HCMSSMI.Controllers
 
                 //side menu validasi 
                 var role = fetchingProfileList.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
-              
+
 
                 //formatRight Createdate kanan
                 var CreateDateRightLabel = fetchingProfileList.Data.FirstOrDefault(x => x.CreateDate == x.CreateDate)?.CreateDate;
@@ -282,13 +243,10 @@ namespace HCMSSMI.Controllers
                     };
                 }
 
-                if (RoleLogin == "4" && model.Username.Equals(userName))
+                if (RoleLogin != null)
                 {
                     return View(model);
 
-                } else if(RoleLogin == "1" || RoleLogin == "2" || RoleLogin == "3" || RoleLogin == "5")
-                {
-                    return View(model);
                 }
                 else
                 {
