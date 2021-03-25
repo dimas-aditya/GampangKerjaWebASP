@@ -566,11 +566,11 @@ C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CoreComp
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.csproj.CopyComplete
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.dll
 C:\Users\Thinkpad\source\repos\HCMSSMI\HCMSSMI\obj\Debug\HCMSSMI.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll.config
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI\bin\HCMSSMI.dll
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI\bin\HCMSSMI.pdb
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI\bin\Antlr3.Runtime.dll
-E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI\bin\EntityFramework.dll
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI\bin\EntityFramework.SqlServer.dll
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI\bin\HCMSSMI.Entities.dll
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI\bin\HCMSSMI.Extensions.dll

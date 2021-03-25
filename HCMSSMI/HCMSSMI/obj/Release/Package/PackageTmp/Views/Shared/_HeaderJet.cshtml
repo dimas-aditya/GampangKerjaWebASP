@@ -59,15 +59,15 @@
                                         </li>
                                     </ul>
                                 </li>
-                                @*<li>
-                                    <a href="candidates-listing.html"><span class="label-status new">new</span> Candidates <small class="icon-arrow"></small></a>
+                                <li>
+                                    <a href="#"><span class="label-status new">new</span> Candidates <small class="icon-arrow"></small></a>
                                     <ul class="sub-menu">
-                                        <li><a href="candidates-listing.html">Candidates Listing</a></li>
+                                        <li> <a href="@Url.Action("SearchCandidate","Candidate")">Candidate Listing</a></li>
                                         <li>
-                                            <a href="candidate-details.html">Candidate Detail <small class="icon-arrow"></small></a>
+                                            <a href="#">Candidate Detail <small class="icon-arrow"></small></a>
                                             <ul class="sub-menu">
-                                                <li><a href="candidate-details.html">Candidate Details V1</a></li>
-                                                <li><a href="candidate-details-two.html">Candidate Details V2</a></li>
+                                                <li> <a href="@Url.Action("SearchCandidate","Candidate")">List Candidate</a></li>
+                                                @* <li><a href="candidate-details-two.html">Candidate Details V2</a></li>*@
                                             </ul>
                                         </li>
                                     </ul>
@@ -75,16 +75,35 @@
                                 <li>
                                     <a href="#">Employers <small class="icon-arrow"></small></a>
                                     <ul class="sub-menu">
-                                        <li><a href="employer-listing.html">Employers Listing</a></li>
-                                        <li>
-                                            <a href="employer-details.html">Employer Details <small class="icon-arrow"></small></a>
-                                            <ul class="sub-menu">
-                                                <li><a href="employer-details.html">Employer Detail V1</a></li>
-                                                <li><a href="employer-details-two.html">Employer Detail V2</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="@Url.Action("SearchEmployee","Employee")">Employers Listing</a></li>
                                     </ul>
-                                </li>*@
+                                </li>
+                                @*<li>
+            <a href="candidates-listing.html"><span class="label-status new">new</span> Candidates <small class="icon-arrow"></small></a>
+            <ul class="sub-menu">
+                <li><a href="candidates-listing.html">Candidates Listing</a></li>
+                <li>
+                    <a href="candidate-details.html">Candidate Detail <small class="icon-arrow"></small></a>
+                    <ul class="sub-menu">
+                        <li><a href="candidate-details.html">Candidate Details V1</a></li>
+                        <li><a href="candidate-details-two.html">Candidate Details V2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Employers <small class="icon-arrow"></small></a>
+            <ul class="sub-menu">
+                <li><a href="employer-listing.html">Employers Listing</a></li>
+                <li>
+                    <a href="employer-details.html">Employer Details <small class="icon-arrow"></small></a>
+                    <ul class="sub-menu">
+                        <li><a href="employer-details.html">Employer Detail V1</a></li>
+                        <li><a href="employer-details-two.html">Employer Detail V2</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>*@
                                 <li>
                                     <a href="blog.html">Blog <small class="icon-arrow"></small></a>
                                     <ul class="sub-menu">
@@ -244,9 +263,7 @@
                         <a href="#"><span>Candidates</span></a>
                         <!-- Start Dropdown Menu -->
                         <ul class="object-submenu">
-                            <li><a href="candidates-listing.html"><span>Candidates Listing</span></a></li>
-                            <li><a href="candidate-details.html"><span>Candidate Details V1</span></a></li>
-                            <li><a href="candidate-details-two.html"><span>Candidate Details V2</span></a></li>
+                            <li><a href="@Url.Action("SearchCandidate","Candidate")"><span>Candidates Listing</span></a></li>
                         </ul>
                         <!-- End Dropdown Menu -->
                     </li>
@@ -255,9 +272,7 @@
                         <a href="#"><span>Employers</span></a>
                         <!-- Start Dropdown Menu -->
                         <ul class="object-submenu">
-                            <li><a href="employer-listing.html"><span>Employers Listing</span></a></li>
-                            <li><a href="employer-details.html"><span>Employer Detail V1</span></a></li>
-                            <li><a href="employer-details-two.html"><span>Employer Detail V2</span></a></li>
+                            <li><a href="@Url.Action("ListEmployer","Employer")"><span>Employers Listing</span></a></li>
                         </ul>
                         <!-- End Dropdown Menu -->
                     </li>
