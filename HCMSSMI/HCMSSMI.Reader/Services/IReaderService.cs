@@ -1,5 +1,6 @@
 ﻿using HCMSSMI.Entities.Models;
 using HCMSSMI.Entities.Models.Candidate;
+using HCMSSMI.Entities.Models.Employee;
 using HCMSSMI.Entities.Models.Login;
 using HCMSSMI.Entities.Models.Profile;
 using HCMSSMI.Entities.Models.Profile.Address;
@@ -36,8 +37,15 @@ namespace HCMSSMI.Reader
 
         #region Candidate 
 
-        Task<IEnumerable<Profile>> SearchCandidatePublic(SearchCandidate cases, string clientKey = null, string apiKey = null);
-        Task<IEnumerable<Profile>> SearchCandidate(SearchCandidate cases, string clientKey = null, string apiKey = null);
+        Task<IEnumerable<Profile>> SearchCandidatePublic(SearchCandidate searchCandidate, string clientKey = null, string apiKey = null);
+        Task<IEnumerable<Profile>> SearchCandidate(SearchCandidate searchCandidate, string clientKey = null, string apiKey = null);
+
+        #endregion
+
+        #region Candidate 
+
+        Task<IEnumerable<Profile>> SearchEmployeePublic(SearchEmployee searchEmployee, string clientKey = null, string apiKey = null);
+        Task<IEnumerable<Profile>> SearchEmployee(SearchEmployee searchEmployee, string clientKey = null, string apiKey = null);
 
         #endregion
     }

@@ -103,3 +103,4 @@ E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entiti
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csproj.CopyComplete
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.dll
 E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.pdb
+E:\Dimas\project\gampangkerja\frontend\GampangKerjaWebASP\HCMSSMI\HCMSSMI.Entities\obj\Debug\HCMSSMI.Entities.csprojAssemblyReference.cache

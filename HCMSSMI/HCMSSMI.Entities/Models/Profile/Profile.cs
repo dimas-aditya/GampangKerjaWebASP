@@ -32,6 +32,7 @@ namespace HCMSSMI.Entities.Models.Profile
         public string AddID { get; set; }
         public string PostalCode { get; set; }
         public string FullAddress { get; set; }
+        public string CompanyName { get; set; } //for Employee
         public string CreateDate { get; set; }
         public string IsActive { get; set; }
     }

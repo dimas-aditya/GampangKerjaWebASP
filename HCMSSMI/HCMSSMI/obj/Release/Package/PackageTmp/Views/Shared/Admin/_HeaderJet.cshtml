@@ -230,7 +230,7 @@
                     <a href="#"><span>Candidates</span></a>
                     <!-- Start Dropdown Menu -->
                     <ul class="object-submenu">
-                        <li><a href="@Url.Action("ListCandidate","Candidate")"><span>Candidates Listing</span></a></li>
+                        <li><a href="@Url.Action("SearchCandidate","Candidate")"><span>Candidates Listing</span></a></li>
                     </ul>
                     <!-- End Dropdown Menu -->
                 </li>
@@ -271,6 +271,12 @@
                         <li><a href="404.html"><span>404 Error</span></a></li>
                     </ul>
                     <!-- End Dropdown Menu -->
+                </li>
+                <li>
+                    <a href="@Url.Action("Logout","Account")">
+                        <i class="mdi mdi-logout mr-1"></i>
+                        <span>Logout</span>
+                    </a>
                 </li>
             </ul>
         </div>

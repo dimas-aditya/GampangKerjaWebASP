@@ -35,7 +35,18 @@
                     <div class="page-breadcrumb-content mb-0">
                         <ul class="page-breadcrumb">
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="job-listing.html">Employers</a></li>
+                            @if (ViewBag.roleID == "4")
+                            {
+                                <li><a href="/Candidate/SearchCandidate">Candidate</a></li>
+                            }
+                            else if (ViewBag.roleID == "5")
+                            {
+                                <li><a href="#">Employee</a></li>
+                            }
+                            else
+                            {
+                                <li><a href="#">Admin</a></li>
+                            }
                             <li><a href="/Candidate/CandidateDetail?nama=@Model.Username">@Model.Username</a></li>
                         </ul>
                     </div>
@@ -74,6 +85,7 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col">
+
                                         <div class="form-group">
                                             <label class="k-label col-md-12" for="FullName">Your Full Name</label>
                                             <div class="col-md-12">
@@ -87,17 +99,7 @@
                                                 @Html.TextBoxFor(model => model.Email, new { @class = "form-control", @readonly = true })
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label class="k-label col-md-12" for="Gender">Gender</label>
-                                            <div class="col-md-12">
-                                                @*<select class="form-control" id="exampleFormControlSelect1">
-                                               <option>Laki-Laki</option>
-                                               <option>Wanita</option>
-                                            </select>*@
-                                                @Html.DropDownListFor(model => model.Gender, new SelectList(ViewBag.GenderList, "Gender", "NameGender"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
 
-                                            </div>
-                                        </div>
                                         <div class="form-group">
                                             <label class="k-label col-md-10" for="ProfileImage">Profile Image</label>
                                             <div class="col-md-12">
@@ -107,73 +109,235 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label class="k-label col-md-12" for="Experience">Experience</label>
-                                            <div class="col-md-12">
-                                                @*<select class="form-control" id="exampleFormControlSelect2">
-                                                <option>Fresh</option>
-                                                <option>1 Tahun</option>
-                                                <option>2 Tahun</option>
-                                            </select>*@
-                                                @Html.DropDownListFor(model => model.Experience, new SelectList(ViewBag.ExpList, "Experience", "NameExperience"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
 
-
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="k-label col-md-12" for="Experience">Qualification</label>
-                                            <div class="col-md-12">
-                                                @*<select class="form-control" id="exampleFormControlSelect2">
-                                                <option>SMK/SMA</option>
-                                                <option>Diploma 1</option>
-                                                <option>Diploma 2</option>
-                                                <option>Diploma 3</option>
-                                                <option>Sarjana 1</option>
-                                                <option>Sarjana 2</option>
-                                            </select>*@
-                                                @Html.DropDownListFor(model => model.Qualification, new SelectList(ViewBag.QualificationList, "Qualification", "NameQualification"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
-
-                                            </div>
-                                        </div>
                                         <div class="form-group">
                                             <label class="k-label col-md-12" for="AturProfil">Atur Profil</label>
                                             <div class="col-md-12">
                                                 @Html.DropDownListFor(model => model.Setyourprofile, new SelectList(ViewBag.SetyourprofileList, "Setyourprofile", "NameSetYourProfile"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label class="k-label col-md-12" for="JobTitle">Job Title</label>
-                                            <div class="col-md-12">
-                                                @Html.TextBoxFor(model => model.JobTitle, new { @class = "form-control" })
+                                        @if (ViewBag.roleID == "4")
+                                        {
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Gender">Gender</label>
+                                                <div class="col-md-12">
+
+                                                    @Html.DropDownListFor(model => model.Gender, new SelectList(ViewBag.GenderList, "Gender", "NameGender"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+
+                                                </div>
                                             </div>
-                                        </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Experience">Experience</label>
+                                                <div class="col-md-12">
+
+                                                    @Html.DropDownListFor(model => model.Experience, new SelectList(ViewBag.ExpList, "Experience", "NameExperience"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+
+
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Experience">Qualification</label>
+                                                <div class="col-md-12">
+                                                    @*<select class="form-control" id="exampleFormControlSelect2">
+                        <option>SMK/SMA</option>
+                        <option>Diploma 1</option>
+                        <option>Diploma 2</option>
+                        <option>Diploma 3</option>
+                        <option>Sarjana 1</option>
+                        <option>Sarjana 2</option>
+                    </select>*@
+                                                    @Html.DropDownListFor(model => model.Qualification, new SelectList(ViewBag.QualificationList, "Qualification", "NameQualification"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="JobTitle">Job Title</label>
+                                                <div class="col-md-12">
+                                                    @Html.TextBoxFor(model => model.JobTitle, new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                        }
+                                        else if (ViewBag.roleID == "5")
+                                        {
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="CompanyName">Company Name</label>
+                                                <div class="col-md-12">
+                                                    @Html.TextBoxFor(model => model.CompanyName, new { @class = "form-control" })
+                                                    @*<input class="form-control" />*@
+                                                </div>
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Gender">Gender</label>
+                                                <div class="col-md-12">
+
+                                                    @Html.DropDownListFor(model => model.Gender, new SelectList(ViewBag.GenderList, "Gender", "NameGender"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Experience">Experience</label>
+                                                <div class="col-md-12">
+
+                                                    @Html.DropDownListFor(model => model.Experience, new SelectList(ViewBag.ExpList, "Experience", "NameExperience"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+
+
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Experience">Qualification</label>
+                                                <div class="col-md-12">
+                                                    @*<select class="form-control" id="exampleFormControlSelect2">
+                        <option>SMK/SMA</option>
+                        <option>Diploma 1</option>
+                        <option>Diploma 2</option>
+                        <option>Diploma 3</option>
+                        <option>Sarjana 1</option>
+                        <option>Sarjana 2</option>
+                    </select>*@
+                                                    @Html.DropDownListFor(model => model.Qualification, new SelectList(ViewBag.QualificationList, "Qualification", "NameQualification"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="JobTitle">Job Title</label>
+                                                <div class="col-md-12">
+                                                    @Html.TextBoxFor(model => model.JobTitle, new { @class = "form-control" })
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="CompanyName">Company Name</label>
+                                                <div class="col-md-12">
+                                                    @Html.TextBoxFor(model => model.CompanyName, new { @class = "form-control" })
+                                                    @*<input class="form-control" />*@
+                                                </div>
+                                            </div>
+                                        }
+
+
+
                                     </div>
                                     <div class="col">
-                                        <div class="form-group">
-                                            <label class="k-label col-md-12" for="Profession">Profession</label>
-                                            <div class="col-md-12">
-                                                @*@Html.TextBoxFor(model => model.Profession, new { @class = "form-control" })*@
-                                                @Html.DropDownListFor(model => model.Profession, new SelectList(ViewBag.ProfessionList, "Profession", "NameProfession"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+                                        @if (ViewBag.roleID == "4")
+                                        {
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Profession">Profession</label>
+                                                <div class="col-md-12">
+                                                    @*@Html.TextBoxFor(model => model.Profession, new { @class = "form-control" })*@
+                                                    @Html.DropDownListFor(model => model.Profession, new SelectList(ViewBag.ProfessionList, "Profession", "NameProfession"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
 
+                                                </div>
                                             </div>
-                                        </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Level">Level</label>
+                                                <div class="col-md-12">
+                                                    @Html.DropDownListFor(model => model.Jabatan, new SelectList(ViewBag.JabatanList, "Jabatan", "NameJabatan"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Type">Type</label>
+                                                <div class="col-md-12">
+
+                                                    @Html.DropDownListFor(model => model.Type, new SelectList(ViewBag.TypeList, "Type", "NameType"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Gaji">Gaji</label>
+                                                <div class="col-md-12">
+                                                    @Html.TextBoxFor(model => model.SalaryRange, new { @class = "form-control" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-10" for="StartDate">Date Of Birth</label>
+                                                <div class="col-md-12">
+                                                    <div class="input-group date" data-provide="datepicker">
+                                                        @Html.TextBoxFor(model => model.DOB, new { @id = "IDLahir", @class = "form-control", required = true })
+                                                        <div class="input-group-addon">
+                                                            <button type="button" class="btn btn-warning"><i class="mdi mdi-calendar"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                        }
+                                        else if (ViewBag.roleID == "5")
+                                        {
+                                            <div class="form-group">
+                                                <label class="k-label col-md-10" for="StartDate">Member Since</label>
+                                                <div class="col-md-12">
+                                                    <div class="input-group date" data-provide="datepicker">
+                                                        @Html.TextBoxFor(model => model.DOB, new { @id = "IDLahir", @class = "form-control", required = true, @readonly = "readonly" })
+                                                        <div class="input-group-addon">
+                                                            <button type="button" class="btn btn-warning"><i class="mdi mdi-calendar"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        }
+                                        else
+                                        {
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Profession">Profession</label>
+                                                <div class="col-md-12">
+                                                    @*@Html.TextBoxFor(model => model.Profession, new { @class = "form-control" })*@
+                                                    @Html.DropDownListFor(model => model.Profession, new SelectList(ViewBag.ProfessionList, "Profession", "NameProfession"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Level">Level</label>
+                                                <div class="col-md-12">
+                                                    @Html.DropDownListFor(model => model.Jabatan, new SelectList(ViewBag.JabatanList, "Jabatan", "NameJabatan"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Type">Type</label>
+                                                <div class="col-md-12">
+
+                                                    @Html.DropDownListFor(model => model.Type, new SelectList(ViewBag.TypeList, "Type", "NameType"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-12" for="Gaji">Gaji</label>
+                                                <div class="col-md-12">
+                                                    @Html.TextBoxFor(model => model.SalaryRange, new { @class = "form-control" })
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="k-label col-md-10" for="StartDate">Date Of Birth</label>
+                                                <div class="col-md-12">
+                                                    <div class="input-group date" data-provide="datepicker">
+                                                        @Html.TextBoxFor(model => model.DOB, new { @id = "IDLahir", @class = "form-control", required = true })
+                                                        <div class="input-group-addon">
+                                                            <button type="button" class="btn btn-warning"><i class="mdi mdi-calendar"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        }
+
                                         <div class="form-group">
                                             <label class="k-label col-md-12" for="Phone">Phone</label>
                                             <div class="col-md-12">
                                                 @Html.TextBoxFor(model => model.Phone, new { @class = "form-control" })
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label class="k-label col-md-10" for="StartDate">Date Of Birth</label>
-                                            <div class="col-md-12">
-                                                <div class="input-group date" data-provide="datepicker">
-                                                    @Html.TextBoxFor(model => model.DOB, new { @id = "IDLahir", @class = "form-control", required = true })
-                                                    <div class="input-group-addon">
-                                                        <button type="button" class="btn btn-warning"><i class="mdi mdi-calendar"></i></button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                         <div class="form-group">
                                             <label class="k-label col-md-10" for="CoverImage">Cover Image</label>
                                             <div class="col-md-12">
@@ -183,38 +347,13 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label class="k-label col-md-12" for="Level">Level</label>
-                                            <div class="col-md-12">
-                                                @*<select class="form-control" id="exampleFormControlSelect2">
-                    <option>Manager</option>
-                    <option>Supervisor</option>
-                    <option>Staff</option>
-                </select>*@
-                                                @Html.DropDownListFor(model => model.Jabatan, new SelectList(ViewBag.JabatanList, "Jabatan", "NameJabatan"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="k-label col-md-12" for="Type">Type</label>
-                                            <div class="col-md-12">
-                                                @*<select class="form-control" id="exampleFormControlSelect2">
-                    <option>Kontrak</option>
-                    <option>Paruh Waktu</option>
-                    <option>Penuh Waktu</option>
-                </select>*@
-                                                @Html.DropDownListFor(model => model.Type, new SelectList(ViewBag.TypeList, "Type", "NameType"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="k-label col-md-12" for="Gaji">Gaji</label>
-                                            <div class="col-md-12">
-                                                @Html.TextBoxFor(model => model.SalaryRange, new { @class = "form-control" })
-                                            </div>
-                                        </div>
+
+
+
                                         <div class="form-group">
                                             <label class="k-label col-md-12" for="Type">Sector</label>
                                             <div class="col-md-12">
-                                              
+
                                                 @Html.DropDownListFor(model => model.SectorID, new SelectList(ViewBag.SectorList, "SectorID", "SectorName"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
                                             </div>
                                         </div>
@@ -245,7 +384,7 @@
                                         <div class="form-group">
                                             <label class="k-label col-md-12" for="Experience">City</label>
                                             <div class="col-md-12">
-                                             
+
                                                 @Html.DropDownListFor(model => model.AddID, new SelectList(ViewBag.AddressList, "AddID", "City"), "Choose..", new { @id = "medicalDropDown", @class = "form-control", required = true })
 
                                             </div>
@@ -280,47 +419,54 @@
             }
 
         </div>
-            @*menu right*@
-            <div class="col-xl-4">
-                <div class="card">
+        @*menu right*@
+        <div class="col-xl-4">
+            <div class="card">
 
-                    <div class="card-body">
-                        <div class="col-lg-12">
-                            <div class="contact-box">
-                                <div class="contact-img">
-                                    <img src="https://jobs.nokriwp.com/demo-3/wp-content/uploads/sites/9/2018/09/careerslogo_EFX-100x100.jpg" id="candidate_dp" class="img-responsive img-circle" alt="candidate profile image">
-                                </div>
-                                <div class="contact-caption">
+                <div class="card-body">
+                    <div class="col-lg-12">
+                        <div class="contact-box">
+                            <div class="contact-img">
+                                <img src="https://jobs.nokriwp.com/demo-3/wp-content/uploads/sites/9/2018/09/careerslogo_EFX-100x100.jpg" id="candidate_dp" class="img-responsive img-circle" alt="candidate profile image">
+                            </div>
+                            <div class="contact-caption">
 
-                                    <h4>@ViewBag.FullNameLabel</h4>
-                                    <span>@ViewBag.ProfessionLabel</span>
+                                <h4>@ViewBag.FullNameLabel</h4>
+                                <span>@ViewBag.ProfessionLabel</span>
+                            </div>
+                            <ul class="social-links list-inline">
+                            </ul>
+                            <div class="progress-bar-section">
+                                <div class="progress">
+                                    <div class="progress-bar"> <span data-percent="95" class="profile95" style="transition: width 3s ease 0s; width: 95%;"></span> </div>
                                 </div>
-                                <ul class="social-links list-inline">
-                                </ul>
-                                <div class="progress-bar-section">
-                                    <div class="progress">
-                                        <div class="progress-bar"> <span data-percent="95" class="profile95" style="transition: width 3s ease 0s; width: 95%;"></span> </div>
-                                    </div>
-                                    <div class="progress-bar-title">
-                                        <h5>Profile Percent</h5>
-                                        <span class="progress-percentage">95%</span>
-                                    </div>
+                                <div class="progress-bar-title">
+                                    <h5>Profile Percent</h5>
+                                    <span class="progress-percentage">95%</span>
                                 </div>
                             </div>
-                            <div class="form-group">
-                                <ul>
+                        </div>
+                        <div class="form-group">
+                            <ul>
+                                @if (ViewBag.roleID != "5")
+                                {
                                     <li> <i class="ti-calendar"></i>Date of Birth: <strong>@ViewBag.DOBLabel</strong></li>
-                                    <li> <i class="ti-mobile"></i>@ViewBag.PhoneLabel</li>
-                                    <li> <i class="ti-email"></i>@ViewBag.EmailLabel</li>
-                                    <li> <i class="ti-location-arrow"></i>@ViewBag.JobTitleLabel</li>
-                                </ul>
-                            </div>
+                                }
+                                else
+                                {
+                                    <li> <i class="ti-calendar"></i>Member Since: <strong>@ViewBag.DOBLabel</strong></li>
+                                }
+                                <li> <i class="ti-mobile"></i>@ViewBag.PhoneLabel</li>
+                                <li> <i class="ti-email"></i>@ViewBag.EmailLabel</li>
+                                <li> <i class="ti-location-arrow"></i>@ViewBag.JobTitleLabel</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
-            @*end right*@
         </div>
+        @*end right*@
+    </div>
 
 
 
@@ -333,18 +479,31 @@
 @if (isAlertResponse)
 {
     <style>
+        .toast {
+            background-color: green;
+            opacity: .1;
+            -ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=10);
+            filter: alpha(opacity=80)
+        }
         #toast-container {
             color: blue;
             background-color: green;
             box-shadow: green;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            padding: 10px;
+            pointer-events: auto;
+            overflow: hidden;
+            opacity: .8;
+            -ms-filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=80);
+            filter: alpha(opacity=80)
         }
     </style>
     <script>
 
-            let message =  @Html.Raw(Json.Encode(@alertBody.Message));
+        let message =  @Html.Raw(Json.Encode(@alertBody.Message));
         let type = @Html.Raw(Json.Encode(@alertBody.Type));
-
-      
 
             function AlertMessage(message, type) {
                 switch (type.toLowerCase()) {
@@ -362,10 +521,8 @@
                         break;
                     default:
                         break;
-
                 }
             }
-
             AlertMessage(message, type);
 
     </script>

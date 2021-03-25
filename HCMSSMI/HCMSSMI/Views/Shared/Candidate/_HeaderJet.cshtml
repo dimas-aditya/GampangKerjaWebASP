@@ -50,13 +50,6 @@
                                 <ul class="sub-menu">
                                     <li><a href="@Url.Action("UpdateProfile","Profile")">Update Profile</a></li>
                                     <li>  <a href="/Candidate/CandidateDetail?nama=">View Profile</a></li>
-                                    @*<li>
-                    <a href="job-details.html">Job Detail <small class="icon-arrow"></small></a>
-                    <ul class="sub-menu">
-                        <li><a href="job-details.html">Job Detail V1</a></li>
-                        <li><a href="job-details-two.html">Job Detail V2</a></li>
-                    </ul>
-                </li>*@
                                 </ul>
                             </li>
                             <li>
@@ -73,13 +66,26 @@
                                 </ul>
                             </li>
                             <li>
+                                <a href="#"><span class="label-status new">new</span> Employee <small class="icon-arrow"></small></a>
+                                <ul class="sub-menu">
+                                    <li> <a href="@Url.Action("SearchEmployee","Employee")">Employee Listing</a></li>
+                                    <li>
+                                        <a href="#">Employee Detail <small class="icon-arrow"></small></a>
+                                        <ul class="sub-menu">
+                                            <li> <a href="@Url.Action("SearchEmployee","Employee")">List Employee</a></li>
+                                            @* <li><a href="candidate-details-two.html">Candidate Details V2</a></li>*@
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
                                 <a href="#">Blog <small class="icon-arrow"></small></a>
                                 <ul class="sub-menu">
                                     <li><a href="blog-details.html">Single Post</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="#">Pagess <small class="icon-arrow"></small></a>
+                                <a href="#">Pages <small class="icon-arrow"></small></a>
                                 <ul class="sub-menu">
                                     <li><a href="about.html">About us</a></li>
                                     <li><a href="contact.html">Contact Us</a></li>
@@ -99,7 +105,7 @@
                                     </li>
                                 </ul>
                             </li>
-                           
+
                         </ul>
                     </nav>
                 </div>
@@ -229,7 +235,14 @@
                     </ul>
                     <!-- End Dropdown Menu -->
                 </li>
-
+                <li class="has-mega-menu">
+                    <a href="#"><span>Employee</span></a>
+                    <!-- Start Dropdown Menu -->
+                    <ul class="object-submenu">
+                        <li><a href="@Url.Action("SearchEmployee","Employee")"><span>Employee Listing</span></a></li>
+                    </ul>
+                    <!-- End Dropdown Menu -->
+                </li>
 
                 <li class="has-mega-menu">
                     <a href="#"><span>Blog</span></a>

@@ -268,6 +268,7 @@ namespace HCMSSMI.Controllers
                         AddID = itemValue.AddID,
                         PostalCode = itemValue.PostalCode,
                         FullAddress = itemValue.FullAddress,
+                        CompanyName = itemValue.CompanyName,
                         IsActive = itemValue.IsActive,
                     };
                 }
@@ -298,8 +299,12 @@ namespace HCMSSMI.Controllers
             var identity = (ClaimsPrincipal)Thread.CurrentPrincipal;
             var userName = identity.Claims.Where(c => c.Type == ClaimTypes.Name)
                                                       .Select(c => c.Value).SingleOrDefault();
+            //side menu validasi 
+            var fetchingProfileList = await reader.SearchProfileIndex(userName);
 
-          
+            var role = fetchingProfileList.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
+            ViewBag.roleID = role;
+
 
             var DateRequest = profile.DOB;
             var time = DateTime.Now.ToString("hh:mm:ss");
@@ -308,36 +313,105 @@ namespace HCMSSMI.Controllers
             var date = DateTime.ParseExact(DateRequest, format, provider);
 
             var dateFinal = Convert.ToDateTime(date).ToString("yyyy-MM-ddThh:mm:ss.549Z").Substring(0, 10) + "T" + time + ".549Z";
-
-            var item = new Profile()
+            var item = new Profile();
+            if (role =="4")
             {
-                //CallItemDate = Convert.ToDateTime(date).ToString("yyyy-MM-ddThh:mm:ss.549Z"),
-                Email = profile.Email,
-                FullName = profile.FullName,
-                ProfileID = profile.ProfileID,
-                RoleID = "0",
-                CreateDate = dateFinal,
-                Username = userName,
-                Profession = profile.Profession,
-                DOB = dateFinal,
-                Gender = profile.Gender,
-                Phone = profile.Phone,
-                CoverImage = profile.CoverImage,
-                ProfileImage = profile.ProfileImage,
-                Experience = profile.Experience,
-                Jabatan = profile.Jabatan,
-                Qualification = profile.Qualification,
-                Type = profile.Type,
-                SalaryRange = profile.SalaryRange,
-                Setyourprofile = profile.Setyourprofile,
-                AboutSelf = profile.AboutSelf,
-                JobTitle = profile.JobTitle,
-                SectorID = profile.SectorID,
-                AddID = profile.AddID,
-                PostalCode = profile.PostalCode,
-                FullAddress = profile.FullAddress,
-                IsActive = profile.IsActive,
-            };
+                 item = new Profile()
+                {
+                    //CallItemDate = Convert.ToDateTime(date).ToString("yyyy-MM-ddThh:mm:ss.549Z"),
+                    Email = profile.Email,
+                    FullName = profile.FullName,
+                    ProfileID = profile.ProfileID,
+                    RoleID = "0",
+                    CreateDate = dateFinal,
+                    Username = userName,
+                    Profession = profile.Profession,
+                    DOB = dateFinal,
+                    Gender = profile.Gender,
+                    Phone = profile.Phone,
+                    CoverImage = profile.CoverImage,
+                    ProfileImage = profile.ProfileImage,
+                    Experience = profile.Experience,
+                    Jabatan = profile.Jabatan,
+                    Qualification = profile.Qualification,
+                    Type = profile.Type,
+                    SalaryRange = profile.SalaryRange,
+                    Setyourprofile = profile.Setyourprofile,
+                    AboutSelf = profile.AboutSelf,
+                    JobTitle = profile.JobTitle,
+                    SectorID = profile.SectorID,
+                    AddID = profile.AddID,
+                    PostalCode = profile.PostalCode,
+                    FullAddress = profile.FullAddress,
+                    CompanyName = "-",
+                    IsActive = profile.IsActive,
+                };
+
+            }
+            else if (role == "5")
+            {
+                 item = new Profile()
+                {
+                    //CallItemDate = Convert.ToDateTime(date).ToString("yyyy-MM-ddThh:mm:ss.549Z"),
+                    Email = profile.Email,
+                    FullName = profile.FullName,
+                    ProfileID = profile.ProfileID,
+                    RoleID = "0",
+                    CreateDate = dateFinal,
+                    Username = userName,
+                    Profession = "-",
+                    DOB = dateFinal,
+                    Gender = "-",
+                    Phone = profile.Phone,
+                    CoverImage = profile.CoverImage,
+                    ProfileImage = profile.ProfileImage,
+                    Experience = "-",
+                    Jabatan = "-",
+                    Qualification = "-",
+                    Type = "-",
+                    SalaryRange = "-",
+                    Setyourprofile = profile.Setyourprofile,
+                    AboutSelf = profile.AboutSelf,
+                    JobTitle = "-",
+                    SectorID = profile.SectorID,
+                    AddID = profile.AddID,
+                    PostalCode = profile.PostalCode,
+                    FullAddress = profile.FullAddress,
+                    CompanyName = profile.CompanyName,
+                    IsActive = profile.IsActive,
+                };
+            } else
+            {
+                item = new Profile()
+                {
+                    Email = profile.Email,
+                    FullName = profile.FullName,
+                    ProfileID = profile.ProfileID,
+                    RoleID = "0",
+                    CreateDate = dateFinal,
+                    Username = userName,
+                    Profession = profile.Profession,
+                    DOB = dateFinal,
+                    Gender = profile.Gender,
+                    Phone = profile.Phone,
+                    CoverImage = profile.CoverImage,
+                    ProfileImage = profile.ProfileImage,
+                    Experience = profile.Experience,
+                    Jabatan = profile.Jabatan,
+                    Qualification = profile.Qualification,
+                    Type = profile.Type,
+                    SalaryRange = profile.SalaryRange,
+                    Setyourprofile = profile.Setyourprofile,
+                    AboutSelf = profile.AboutSelf,
+                    JobTitle = profile.JobTitle,
+                    SectorID = profile.SectorID,
+                    AddID = profile.AddID,
+                    PostalCode = profile.PostalCode,
+                    FullAddress = profile.FullAddress,
+                    CompanyName = profile.CompanyName,
+                    IsActive = profile.IsActive,
+                };
+            }
 
             var result = await writer.UpdateProfile(item, clientKey, secretKey);
 
@@ -375,11 +449,8 @@ namespace HCMSSMI.Controllers
 
             //balikin data get atau panggil method get 
 
-            var fetchingProfileList = await reader.SearchProfileIndex(userName);
-
-            //side menu validasi 
-            var role = fetchingProfileList.Data.FirstOrDefault(x => x.RoleID == x.RoleID)?.RoleID;
-            ViewBag.roleID = role;
+           
+           
 
             //Get dropdown list gender
             string genderString = "Laki-laki,Wanita";
@@ -525,24 +596,6 @@ namespace HCMSSMI.Controllers
             return await Task.FromResult(View(profile));
         }
 
-
-        //[HttpGet]
-        //public async Task<ActionResult> Edit(int? id, string clientKey = null, string secretKey = null)
-        //{
-        //    if (id == null)
-        //        throw new ArgumentException($"Parameter ID is undefined");
-
-        //    var benefitItem = await reader.GetBenefitItem(id.Value, clientKey, secretKey);
-
-        //    if (benefitItem == null)
-        //        throw new ArgumentException($"Could not found any specific data on ID {id}");
-
-        //    ViewBag.IsAlertResponse = false;
-        //    ViewBag.ActivityResponsMessage = null;
-
-
-        //    return View(benefitItem);
-        //}
 
 
         #region Private Helper 

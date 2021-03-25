@@ -156,6 +156,7 @@ namespace HCMSSMI.Writer
                     AddID = profile.AddID,
                     PostalCode = profile.PostalCode,
                     FullAddress = profile.FullAddress,
+                    CompanyName = profile.CompanyName,
                     IsActive = profile.IsActive,
                     CreateDate = "0001-01-01T00:00:00",
 
@@ -188,6 +189,12 @@ namespace HCMSSMI.Writer
                     SalaryRange = profile.SalaryRange,
                     Setyourprofile = profile.Setyourprofile,
                     AboutSelf = profile.AboutSelf,
+                    JobTitle = profile.JobTitle,
+                    SectorID = profile.SectorID,
+                    AddID = profile.AddID,
+                    PostalCode = profile.PostalCode,
+                    FullAddress = profile.FullAddress,
+                    CompanyName = profile.CompanyName,
                     IsActive = profile.IsActive,
                 };
 

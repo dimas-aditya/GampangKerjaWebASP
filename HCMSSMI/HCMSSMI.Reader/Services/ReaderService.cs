@@ -16,6 +16,7 @@ using RestSharp.Serialization.Json;
 using HCMSSMI.Entities.Models.Candidate;
 using HCMSSMI.Entities.Models.Profile.Address;
 using HCMSSMI.Entities.Models.Profile.Sector;
+using HCMSSMI.Entities.Models.Employee;
 
 namespace HCMSSMI.Reader
 {
@@ -235,7 +236,6 @@ namespace HCMSSMI.Reader
 
         #endregion
 
-
         #region Candidate
         public async Task<IEnumerable<Profile>> SearchCandidatePublic(SearchCandidate candidate, string clientKey = null, string apiKey = null)
         {
@@ -283,6 +283,69 @@ namespace HCMSSMI.Reader
                 configuration.Client = new RestClient($"{configuration.ClientURL}");
                 configuration.Request = new RestRequest($"{configuration.RequestURL}", Method.POST, DataFormat.Json);
                 configuration.Request.AddJsonBody(candidate);
+
+                var response = configuration.Client.Execute<List<Profile>>(configuration.Request);
+
+                return response.Data;
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"An error occured when request to API: {ex.Message}");
+            }
+
+            return await Task.FromResult(candidateList);
+        }
+
+        #endregion
+
+        #region Employee
+        public async Task<IEnumerable<Profile>> SearchEmployeePublic(SearchEmployee employee, string clientKey = null, string apiKey = null)
+        {
+            List<Profile> EmployeeList = new List<Profile>();
+
+            try
+            {
+                configuration.ClientURL = @ServerApi.URL_AuthGateway;
+
+
+                if ((!string.IsNullOrEmpty(clientKey) && !string.IsNullOrEmpty(apiKey)))
+                    configuration.Client.Authenticator = new HttpBasicAuthenticator(clientKey, apiKey);
+
+                configuration.RequestURL = $"SearchEmployeePublic";
+                configuration.Client = new RestClient($"{configuration.ClientURL}");
+                configuration.Request = new RestRequest($"{configuration.RequestURL}", Method.POST, DataFormat.Json);
+                configuration.Request.AddJsonBody(employee);
+
+                var response = configuration.Client.Execute<List<Profile>>(configuration.Request);
+
+                return response.Data;
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine($"An error occured when request to API: {ex.Message}");
+            }
+
+            return await Task.FromResult(EmployeeList);
+        }
+
+        public async Task<IEnumerable<Profile>> SearchEmployee(SearchEmployee employee, string clientKey = null, string apiKey = null)
+        {
+            List<Profile> candidateList = new List<Profile>();
+
+            try
+            {
+                configuration.ClientURL = @ServerApi.URL_AuthGateway;
+
+
+                if ((!string.IsNullOrEmpty(clientKey) && !string.IsNullOrEmpty(apiKey)))
+                    configuration.Client.Authenticator = new HttpBasicAuthenticator(clientKey, apiKey);
+
+                configuration.RequestURL = $"SearchEmployee";
+                configuration.Client = new RestClient($"{configuration.ClientURL}");
+                configuration.Request = new RestRequest($"{configuration.RequestURL}", Method.POST, DataFormat.Json);
+                configuration.Request.AddJsonBody(employee);
 
                 var response = configuration.Client.Execute<List<Profile>>(configuration.Request);
 

@@ -186,35 +186,50 @@
                                         </li>
                                     </ul>
                                 </div>
-                                    <div class="common-sidebar-widget sidebar-two">
-                                        <h2 class="sidebar-title">Experience</h2>
-                                        <ul class="sidebar-cbx-list">
-                                            <li>
-                                                <div class="filter-name-item">
-                                                    <input type="checkbox" name="expericence" id="experience-cbx">
-                                                    <label for="experience-cbx">> 5 years (1)</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="filter-name-item">
-                                                    <input type="checkbox" name="expericence" id="experience-cbx-two">
-                                                    <label for="experience-cbx-two"> &lt; 1 year (5)</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="filter-name-item">
-                                                    <input type="checkbox" name="expericence" id="experience-cbx-three">
-                                                    <label for="experience-cbx-three">1-3 years (10)</label>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="filter-name-item">
-                                                    <input type="checkbox" name="expericence" id="experience-cbx-four">
-                                                    <label for="experience-cbx-four">3-5 years (4)</label>
-                                                </div>
-                                            </li>
-                                        </ul>
+                                <div class="common-sidebar-widget sidebar-two">
+                                    <h2 class="sidebar-title">Experience</h2>
+                                    <div class="form-group" style="display:none">
+                                        @Html.TextBoxFor(model => model.Experience, new { @id = "ExpShow", @class = "form-control", @placeholder = "Search Gender.." })
                                     </div>
+                                    <ul class="sidebar-cbx-list">
+                                        <li>
+                                            <div class="filter-name-item">
+                                                <input type="checkbox" id="cb-Fresh">
+                                                <label for="experience-cbx-two">Fresh Graduate</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="filter-name-item">
+                                                <input type="checkbox" id="cb-1th">
+                                                <label for="experience-cbx-two"> &lt; 1 year</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="filter-name-item">
+                                                <input type="checkbox" id="cb-2th">
+                                                <label for="experience-cbx-three">2 years</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="filter-name-item">
+                                                <input type="checkbox" id="cb-3th">
+                                                <label for="experience-cbx-four">3 years</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="filter-name-item">
+                                                <input type="checkbox" id="cb-4th">
+                                                <label for="experience-cbx-five">4 years</label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="filter-name-item">
+                                                <input type="checkbox" id="cb-5th">
+                                                <label for="experience-cbx">> 5 years</label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
                                     <div class="common-sidebar-widget sidebar-two">
                                         <h2 class="sidebar-title">Hour Rate</h2>
                                         <div class="sidebar-salary">
@@ -1120,6 +1135,7 @@
     $(document).ready(function () {
         $('#TypeShow').val('');
         $('#GenderShow').val('');
+        $('#ExpShow').val('');
         }); 
 
     $(document).ready(function () {
@@ -1278,7 +1294,113 @@
             }
         });
 
+        $('#cb-Fresh').change(function () {
+            if ($(this).is(':checked')) {
+                $('#ExpShow').val('Fresh Graduate');
+                $('#cb-1th').prop('disabled', true);
+                $('#cb-2th').prop('disabled', true);
+                $('#cb-3th').prop('disabled', true);
+                $('#cb-4th').prop('disabled', true);
+                $('#cb-5th').prop('disabled', true);
+            } else {
+                $('#ExpShow').val('');
+                $('#cb-1th').prop('disabled', false);
+                $('#cb-2th').prop('disabled', false);
+                $('#cb-3th').prop('disabled', false);
+                $('#cb-4th').prop('disabled', false);
+                $('#cb-5th').prop('disabled', false);
+            }
+        });
 
+        $('#cb-1th').change(function () {
+            if ($(this).is(':checked')) {
+                $('#ExpShow').val('1 Tahun');
+                $('#cb-Fresh').prop('disabled', true);
+                $('#cb-2th').prop('disabled', true);
+                $('#cb-3th').prop('disabled', true);
+                $('#cb-4th').prop('disabled', true);
+                $('#cb-5th').prop('disabled', true);
+            } else {
+                $('#ExpShow').val('');
+                $('#cb-Fresh').prop('disabled', false);
+                $('#cb-2th').prop('disabled', false);
+                $('#cb-3th').prop('disabled', false);
+                $('#cb-4th').prop('disabled', false);
+                $('#cb-5th').prop('disabled', false);
+            }
+        });
+
+        $('#cb-2th').change(function () {
+            if ($(this).is(':checked')) {
+                $('#ExpShow').val('2 Tahun');
+                $('#cb-Fresh').prop('disabled', true);
+                $('#cb-1th').prop('disabled', true);
+                $('#cb-3th').prop('disabled', true);
+                $('#cb-4th').prop('disabled', true);
+                $('#cb-5th').prop('disabled', true);
+            } else {
+                $('#ExpShow').val('');
+                $('#cb-Fresh').prop('disabled', false);
+                $('#cb-1th').prop('disabled', false);
+                $('#cb-3th').prop('disabled', false);
+                $('#cb-4th').prop('disabled', false);
+                $('#cb-5th').prop('disabled', false);
+            }
+        });
+
+        $('#cb-3th').change(function () {
+            if ($(this).is(':checked')) {
+                $('#ExpShow').val('3 Tahun');
+                $('#cb-Fresh').prop('disabled', true);
+                $('#cb-1th').prop('disabled', true);
+                $('#cb-2th').prop('disabled', true);
+                $('#cb-4th').prop('disabled', true);
+                $('#cb-5th').prop('disabled', true);
+            } else {
+                $('#ExpShow').val('');
+                $('#cb-Fresh').prop('disabled', false);
+                $('#cb-1th').prop('disabled', false);
+                $('#cb-2th').prop('disabled', false);
+                $('#cb-4th').prop('disabled', false);
+                $('#cb-5th').prop('disabled', false);
+            }
+        });
+
+        $('#cb-4th').change(function () {
+            if ($(this).is(':checked')) {
+                $('#ExpShow').val('4 Tahun');
+                $('#cb-Fresh').prop('disabled', true);
+                $('#cb-1th').prop('disabled', true);
+                $('#cb-2th').prop('disabled', true);
+                $('#cb-3th').prop('disabled', true);
+                $('#cb-5th').prop('disabled', true);
+            } else {
+                $('#ExpShow').val('');
+                $('#cb-Fresh').prop('disabled', false);
+                $('#cb-1th').prop('disabled', false);
+                $('#cb-2th').prop('disabled', false);
+                $('#cb-3th').prop('disabled', false);
+                $('#cb-5th').prop('disabled', false);
+            }
+        });
+
+        $('#cb-5th').change(function () {
+            if ($(this).is(':checked')) {
+                $('#ExpShow').val('5 Tahun');
+                $('#cb-Fresh').prop('disabled', true);
+                $('#cb-1th').prop('disabled', true);
+                $('#cb-2th').prop('disabled', true);
+                $('#cb-3th').prop('disabled', true);
+                $('#cb-4th').prop('disabled', true);
+            } else {
+                $('#ExpShow').val('');
+                $('#cb-Fresh').prop('disabled', false);
+                $('#cb-1th').prop('disabled', false);
+                $('#cb-2th').prop('disabled', false);
+                $('#cb-3th').prop('disabled', false);
+                $('#cb-4th').prop('disabled', false);
+            }
+        });
     });
 
 </script>
